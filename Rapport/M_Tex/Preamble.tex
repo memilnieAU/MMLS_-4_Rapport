@@ -1,0 +1,42 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\author{Emma Spanner}
+\title{LaTex kursus}
+\usepackage[danish]{babel}
+\usepackage{graphicx}
+\parindent=0mm
+\usepackage{natbib}
+\usepackage{siunitx} % Required for alignment
+\usepackage{lastpage} 
+%Bruges til at Ref. til Sidetal
+\usepackage{multirow} % bruges til at merge celler
+\usepackage{gensymb}
+\usepackage{geometry}
+%\usepackage[margin=1.0in]{geometry}
+\usepackage[table,xcdraw]{xcolor}
+
+\usepackage{booktabs} %En anden type tabel
+
+
+
+%Usynlige kommentar - Start
+\usepackage{verbatim} 
+%\begin{comment} "Skjult tekst" \end{comment}
+%Usynlige kommentar - Slut
+
+%Sidetal X af Y - Start
+\makeatletter
+\renewcommand{\@evenfoot}{\hfil Side \thepage{} of \pageref{LastPage}\hfil}
+\renewcommand{\@oddfoot}{\@evenfoot}
+\makeatother
+%Sidetal X af Y - Slut
+
+
+%https://play.xenopal.dk/mathcad/?fbclid=IwAR22C9CJrwRfdsLsRpbcikkh8dPeyujQ4OrTK6U0MTWFfF8qtlbnG62nyFA
+
+\def\||{\multicolumn{1}{l|}{}}
+

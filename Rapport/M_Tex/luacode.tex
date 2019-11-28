@@ -1,0 +1,49 @@
+
+
+\begin{luacode*}
+
+commenting = false
+local gsub = string.gsub
+
+local opencomm = "%/%*(.*)"
+local closecomm = "(.-)%*%/"
+
+function comment(s)
+    if not commenting then
+        s = gsub(s,opencomm,
+                function(s1)
+                commenting = true
+                s1 =  gsub(s1,closecomm,function(s2) commenting = false return "" end,1)
+                  if commenting then return "" else
+                      return comment(s1)
+                  end
+              end
+            )
+    else
+        s = gsub(s,"(.+)",
+                function(s3)
+                s3 =  gsub(s,closecomm,function(s4) commenting = false return "" end,1)
+                    if commenting then return "%" else
+                        return comment(s3)
+                    end
+                end
+                )
+    end
+    return s
+end
+
+luatexbase.add_to_callback('process_input_buffer', comment, 'comment')
+\end{luacode*}
+
+\begin{document}
+
+1 /*HIDDEN*/ 2
+
+1 /*HIDDEN
+HIDDEN*/ 2
+
+1/*HIDDEN
+HIDDEN
+HIDDEN*/2
+
+
