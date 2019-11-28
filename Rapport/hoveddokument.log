@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  28 NOV 2019 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  28 NOV 2019 23:01
 entering extended mode
 **./hoveddokument.tex
 (hoveddokument.tex
@@ -890,7 +890,7 @@ AED: lastpage setting LastPage
 [7] (hoveddokument.aux) ) 
 Here is how much of TeX's memory you used:
  17037 strings out of 492895
- 332768 string characters out of 3118128
+ 333132 string characters out of 3118128
  379663 words of memory out of 3000000
  20776 multiletter control sequences out of 15000+200000
  541474 words of font info for 58 fonts, out of 3000000 for 9000
@@ -914,7 +914,7 @@ Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Mads Emi
 l Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti12.pfb>
-Output written on hoveddokument.pdf (8 pages, 183002 bytes).
+Output written on hoveddokument.pdf (8 pages, 183090 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
