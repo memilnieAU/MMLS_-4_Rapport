@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  28 NOV 2019 10:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  29 NOV 2019 10:03
 entering extended mode
 **./Ana_Samlet.tex
 (Ana_Samlet.tex
-LaTeX2e <2018-12-01>
+LaTeX2e <2019-10-01>
 ! Undefined control sequence.
 l.2 \section
             {Analyse}
@@ -99,15 +99,15 @@ Enter file name:
 <read *> 
          
 l.5 \input{M_Tex/Ana_1.Ordens}
-                              
+                              
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 12 strings out of 492895
- 300 string characters out of 3118128
- 57474 words of memory out of 3000000
- 4025 multiletter control sequences out of 15000+200000
+ 13 strings out of 492452
+ 308 string characters out of 3122847
+ 59229 words of memory out of 3000000
+ 4469 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  14i,0n,13p,93b,46s stack positions out of 5000i,500n,10000p,200000b,50000s
