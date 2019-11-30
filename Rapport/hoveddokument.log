@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  30 NOV 2019 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  1 DEC 2019 00:29
 entering extended mode
 **./hoveddokument.tex
 (hoveddokument.tex
@@ -513,42 +513,92 @@ Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \@lastruleclass=\count286
 \@thisrulewidth=\dimen182
 )
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfi
+g\wrapfig.sty"
+\wrapoverhang=\dimen183
+\WF@size=\dimen184
+\c@WF@wrappedlines=\count287
+\WF@box=\box57
+\WF@everypar=\toks25
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum
+\lipsum.sty"
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum
+\lipsum.ltd.tex"
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
 ("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\
 verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks25
-\verbatim@line=\toks26
+\every@verbatim=\toks26
+\verbatim@line=\toks27
 \verbatim@in@stream=\read2
-)) (hoveddokument.aux)
+))
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: 
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (hoveddokument.aux)
 \openout1 = `hoveddokument.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 
 ("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/context/base
 /mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
-\scratchdimen=\dimen183
-\scratchbox=\box57
-\nofMPsegments=\count288
-\nofMParguments=\count289
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count290
-\MPscratchDim=\dimen184
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count288
+\scratchdimen=\dimen185
+\scratchbox=\box58
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen186
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks29
 )
 ("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdi
 ek\epstopdf-base.sty"
@@ -690,65 +740,21 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 4.
-LaTeX Info: Redefining \celsius on input line 4.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 4.
+(lastpage)             ! on input line 5.
+LaTeX Info: Redefining \celsius on input line 5.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 5.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 4.
-Package gensymb Info: Using \Omega for \ohm on input line 4.
+LaTeX Info: Redefining \ohm on input line 5.
+Package gensymb Info: Using \Omega for \ohm on input line 5.
 
 Package gensymb Warning: Not defining \micro.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=-7.86334pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
-ts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
-ts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (M_Tex/Forside.tex
-*geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
@@ -780,6 +786,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (M_Tex/Forside.tex
 <M_Fig/1_AU-Logo.png, id=1, 631.35875pt x 325.215pt>
 File: M_Fig/1_AU-Logo.png Graphic file (type png)
 <use M_Fig/1_AU-Logo.png>
@@ -790,54 +808,19 @@ Package pdftex.def Info: M_Fig/1_AU-Logo.png  used on input line 7.
 
 {C:/Users/Mads Emil Nielsen/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} 
 <./M_Fig/1_AU-Logo.png>])
-(M_Tex/Indholdsfortegnelse.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(108.405pt, 380.69788pt, 108.405pt)
-* v-part:(T,H,B)=(108.405pt, 664.37186pt, 72.26999pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=380.69788pt
-* \textheight=664.37186pt
-* \oddsidemargin=36.13501pt
-* \evensidemargin=36.13501pt
-* \topmargin=-0.86499pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- (hoveddokument.toc)
+(M_Tex/Indholdsfortegnelse.tex (hoveddokument.toc)
 \tf@toc=\write3
 \openout3 = `hoveddokument.toc'.
 
-) [1
-
-] (M_Tex/Indledning.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
+) [1] (M_Tex/Indledning.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
 
 ("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\o
 mscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
 ) [2] (M_Tex/Ana_Samlet.tex (M_Tex/Ana_1.Ordens.tex
 <M_Fig/Ana_1_Ordens_Lavpasfilter.png, id=17, 150.5625pt x 67.0003pt>
 File: M_Fig/Ana_1_Ordens_Lavpasfilter.png Graphic file (type png)
@@ -845,7 +828,24 @@ File: M_Fig/Ana_1_Ordens_Lavpasfilter.png Graphic file (type png)
 Package pdftex.def Info: M_Fig/Ana_1_Ordens_Lavpasfilter.png  used on input lin
 e 23.
 (pdftex.def)             Requested size: 319.69408pt x 142.26378pt.
- [3 <./M_Fig/Ana_1_Ordens_Lavpasfilter.png>] [4] [5]) [6]
+ [3 <./M_Fig/Ana_1_Ordens_Lavpasfilter.png>] [4]
+<M_Fig/V_out_10_1.png, id=32, 244.66406pt x 234.1247pt>
+File: M_Fig/V_out_10_1.png Graphic file (type png)
+<use M_Fig/V_out_10_1.png>
+Package pdftex.def Info: M_Fig/V_out_10_1.png  used on input line 223.
+(pdftex.def)             Requested size: 148.67366pt x 142.26378pt.
+<M_Fig/V_out_10_2.png, id=34, 251.43938pt x 231.86626pt>
+File: M_Fig/V_out_10_2.png Graphic file (type png)
+<use M_Fig/V_out_10_2.png>
+Package pdftex.def Info: M_Fig/V_out_10_2.png  used on input line 229.
+(pdftex.def)             Requested size: 154.27556pt x 142.26378pt.
+<M_Fig/V_out_100_1.png, id=35, 247.67531pt x 224.33812pt>
+File: M_Fig/V_out_100_1.png Graphic file (type png)
+<use M_Fig/V_out_100_1.png>
+Package pdftex.def Info: M_Fig/V_out_100_1.png  used on input line 236.
+(pdftex.def)             Requested size: 157.068pt x 142.26378pt.
+ [5] [6 <./M_Fig/V_out_10_1.png> <./M_Fig/V_out_10_2.png> <./M_Fig/V_out_100_1.
+png>]) [7]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -883,40 +883,76 @@ e 23.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 15.
 
-) [7
+[8
 
-] (M_Tex/Random.tex) 
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+) (M_Tex/Random.tex) 
 AED: lastpage setting LastPage
-[8] (hoveddokument.aux) ) 
+[9
+
+] (hoveddokument.aux) ) 
 Here is how much of TeX's memory you used:
- 17040 strings out of 492895
- 333163 string characters out of 3118128
- 382690 words of memory out of 3000000
- 20779 multiletter control sequences out of 15000+200000
+ 17283 strings out of 492895
+ 338862 string characters out of 3118128
+ 545260 words of memory out of 3000000
+ 21007 multiletter control sequences out of 15000+200000
  541474 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,13n,61p,654b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mads Emil Nielsen/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
-Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmex10.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Mads Emil Nielsen/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
-Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi6.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Mads Emil Nielsen/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/M
-ads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Mads Emi
-l Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmti12.pfb>
-Output written on hoveddokument.pdf (9 pages, 185800 bytes).
+ 43i,13n,61p,654b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mads Emil Nielsen/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
+ers/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmex10.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Mads Emil Nielsen/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Us
+ers/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi6.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Mads Emil Nielsen/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mad
+s Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr6.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mads Emil N
+ielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.p
+fb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on hoveddokument.pdf (10 pages, 219673 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
