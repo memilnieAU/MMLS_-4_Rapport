@@ -287,6 +287,71 @@ V_{OutMax_{100}}(50ms)=4.996V
 
 \subsubsection*{6. Bestem stigetiden tr}
 Bestem stigetiden tr (10-90\%).
+Stigetiden er den tid det tager $V_{out}$ at komme fra 10\% til 90\% af $V_{in}$.
+
+\textbf{Ved $10k\Omega$:}\\
+\textcolor{green}{!!!!!MANGLER BEGRUNDELSE FOR AT BRUGE LOGEITMEN!!!!}
+\begin{center}
+$t_{10}=-ln(0.9)\cdot \tau_{10}$\\
+$t_{10}=-ln(0.9)\cdot 1.0 ms$
+\begin{equation}
+t_{10}= 0.105 ms
+\label{t_10_10}
+\end{equation}
+\end{center}
+
+
+\begin{center}
+$t_{90}=-ln(0.1)\cdot \tau_{10}$\\
+$t_{90}=-ln(0.1)\cdot 1.0 ms$
+\begin{equation}
+t_{90}= 2.303 ms
+\label{t_10_90}
+\end{equation}
+\end{center}
+
+
+\begin{center}
+$tr_{10}=t_{90} - t_{10}$\\
+$tr_{10}=2.303 ms - 0.105 ms$
+\begin{equation}
+tr_{10}= 2.167 ms
+\label{tr_10}
+\end{equation}
+\end{center}
+
+
+\textbf{Ved $100k\Omega$:}\\
+\textcolor{green}{!!!!!MANGLER BEGRUNDELSE FOR AT BRUGE LOGEITMEN!!!!}
+\begin{center}
+$t_{10}=-ln(0.9)\cdot \tau_{100}$\\
+$t_{10}=-ln(0.9)\cdot 1.0 ms$
+\begin{equation}
+t_{10}= 1.054 ms
+\label{t_100_10}
+\end{equation}
+\end{center}
+
+
+\begin{center}
+$t_{90}=-ln(0.1)\cdot \tau_{100}$\\
+$t_{90}=-ln(0.1)\cdot 1.0 ms$
+\begin{equation}
+t_{90}= 23.026 ms
+\label{t_100_90}
+\end{equation}
+\end{center}
+
+
+\begin{center}
+$tr_{100}=t_{90} - t_{10}$\\
+$tr_{100}=23.026 ms - 1.054 ms$
+\begin{equation}
+tr_{100}= 21.972 ms
+\label{tr_100}
+\end{equation}
+\end{center}
+ 
 
 \subsubsection*{7. Forklar}
 Forklar hvordan tidskonstanten og stigetiden kan findes ud fra grafen for 	Vout, og opstil en ligning til bestemmelse af C, når tidskonstanten %τ
