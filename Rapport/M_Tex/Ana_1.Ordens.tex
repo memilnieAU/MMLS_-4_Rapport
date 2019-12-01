@@ -206,12 +206,16 @@ og vis disse grafisk for $0 \leq t \leq 50 ms$
 Bestemt er:
 $V_{0}=5V$ og $t=0s,0.1ms..50ms$
 
-Kurveformen er givet ved Ligning \ref{Fuldstendig losning}, da dette er den genrelle løsning. I denne ligning kan man nu indsætte parametrene og derved få 2 nye ligninger der afhænger af tiden t:
+Kurveformen er givet ved Ligning \ref{Specifikke losning}, da dette er den specifikke løsning.
+
+
+
+Derefer kan man nu indsætte parametrene i ligningen og derved får man 2 nye ligninger der begge afhænger af tiden t:
 
 \textbf{$V_{Out_{10}}(t)$:}
 \begin{center}
 \begin{equation}
-V_{Out_{10}}(t) = 5V+k \cdot e^{-\frac{t}{10k\Omega \cdot 100nF}} 
+V_{Out_{10}}(t) = 5V-5V \cdot e^{-\frac{t}{10k\Omega \cdot 100nF}} 
 \label{V_Out_10}
 \end{equation}
 \end{center}
@@ -248,7 +252,7 @@ V_{Out_{10}}(t) = 5V+k \cdot e^{-\frac{t}{10k\Omega \cdot 100nF}}
 \textbf{$V_{Out_{100}}(t)$:}
 \begin{center}
 \begin{equation}
-V_{Out_{100}}(t) = 5V+k \cdot e^{-\frac{t}{100k\Omega \cdot 100nF}} 
+V_{Out_{100}}(t) = 5V-5V \cdot e^{-\frac{t}{100k\Omega \cdot 100nF}} 
 \label{V_Out_100}
 \end{equation}
 \end{center}
@@ -258,6 +262,28 @@ V_{Out_{100}}(t) = 5V+k \cdot e^{-\frac{t}{100k\Omega \cdot 100nF}}
 
 \subsubsection*{5. Beregn Vout max}
 Beregn den maksimale værdi af Vout i de to tilfælde.
+Når $V_{Max}$ skal beregnes vil den være højste i det signalet stepper ned. Det vil sige ved t = 50ms
+
+\textbf{$V_{OutMax_10}$:}
+
+\begin{center}
+$V_{OutMax_{10}}(50ms) = 5V-5V \cdot e^{-\frac{50ms}{10k\Omega \cdot 100nF}} $
+\begin{equation}
+V_{OutMax_{10}}(50ms)=5V
+\label{V_OutMax_10}
+\end{equation}
+\end{center}
+
+\textbf{$V_{OutMax_100}$:}
+
+\begin{center}
+$V_{OutMax_{100}}(50ms) = 5V-5V \cdot e^{-\frac{50ms}{100k\Omega \cdot 100nF}} $
+\begin{equation}
+V_{OutMax_{100}}(50ms)=4.996V
+\label{V_OutMax_100}
+\end{equation}
+\end{center}
+
 
 \subsubsection*{6. Bestem stigetiden tr}
 Bestem stigetiden tr (10-90\%).
