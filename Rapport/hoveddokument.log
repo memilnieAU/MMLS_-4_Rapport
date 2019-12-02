@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  2 DEC 2019 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  2 DEC 2019 17:27
 entering extended mode
 **./hoveddokument.tex
 (hoveddokument.tex
@@ -812,7 +812,11 @@ Package pdftex.def Info: M_Fig/1_AU-Logo.png  used on input line 7.
 \tf@toc=\write3
 \openout3 = `hoveddokument.toc'.
 
-) [1] (M_Tex/Indledning.tex
+)
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 10.
+
+[1] (M_Tex/Indledning.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
 
 ("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\o
@@ -821,14 +825,26 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-) [2] (M_Tex/Ana_Samlet.tex (M_Tex/Ana_1.Ordens.tex
+)
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 12.
+
+[2] (M_Tex/Ana_Samlet.tex (M_Tex/Ana_1.Ordens.tex
 <M_Fig/Ana_1_Ordens_Lavpasfilter.png, id=17, 150.5625pt x 67.0003pt>
 File: M_Fig/Ana_1_Ordens_Lavpasfilter.png Graphic file (type png)
 <use M_Fig/Ana_1_Ordens_Lavpasfilter.png>
 Package pdftex.def Info: M_Fig/Ana_1_Ordens_Lavpasfilter.png  used on input lin
 e 23.
 (pdftex.def)             Requested size: 319.69408pt x 142.26378pt.
- [3 <./M_Fig/Ana_1_Ordens_Lavpasfilter.png>] [4]
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 80.
+
+[3 <./M_Fig/Ana_1_Ordens_Lavpasfilter.png>]
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 150.
+
+[4]
 <M_Fig/V_out_10_1.png, id=32, 244.66406pt x 234.1247pt>
 File: M_Fig/V_out_10_1.png Graphic file (type png)
 <use M_Fig/V_out_10_1.png>
@@ -844,8 +860,23 @@ File: M_Fig/V_out_100_1.png Graphic file (type png)
 <use M_Fig/V_out_100_1.png>
 Package pdftex.def Info: M_Fig/V_out_100_1.png  used on input line 240.
 (pdftex.def)             Requested size: 157.068pt x 142.26378pt.
- [5] [6 <./M_Fig/V_out_10_1.png> <./M_Fig/V_out_10_2.png> <./M_Fig/V_out_100_1.
-png>] [7]) [8]
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 257.
+
+[5]
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 257.
+
+[6 <./M_Fig/V_out_10_1.png> <./M_Fig/V_out_10_2.png> <./M_Fig/V_out_100_1.png>]
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 328.
+
+[7])
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 12.
+
+[8]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -883,6 +914,9 @@ png>] [7]) [8]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 15.
 
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 49.
+
 [9
 
 ]
@@ -918,305 +952,28 @@ LaTeX Warning: No positions in optional float specifier.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-) (P_Tex/Simulering.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(108.405pt, 380.69788pt, 108.405pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=380.69788pt
-* \textheight=700.50687pt
-* \oddsidemargin=36.13501pt
-* \evensidemargin=36.13501pt
-* \topmargin=-37.0pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-
-LaTeX Warning: Reference `1.orden' on page 10 undefined on input line 9.
-
-Runaway argument?
-height=5cm{P_Fig/figur1} \caption {Simulering af 1. ordens lavpasfilt\ETC.
-! Paragraph ended before \Gin@ii was complete.
-<to be read again> 
-                   \par 
-l.20 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: Reference `10k.50Hz.tau' on page 10 undefined on input line 27.
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 \begin{figure}[h]
-                      
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `P_Fig/figur3.10k.50Hz.tau' not found on input line 34.
-
-
-! LaTeX Error: Unknown graphics extension: .10k.50Hz.tau.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ...ics[height=5cm]{P_Fig/figur3.10k.50Hz.tau}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `10k.50Hz.stigetid' on page 10 undefined on input line
- 43.
-
-
-LaTeX Warning: Reference `10k.50Hz.stigetid' on page 10 undefined on input line
- 49.
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 \begin{figure}[h]
-                      
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `P_Fig/figur4.10k.50Hz.stigetid' not found on input line 53
-.
-
-
-! LaTeX Error: Unknown graphics extension: .10k.50Hz.stigetid.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...eight=5cm]{P_Fig/figur4.10k.50Hz.stigetid}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `10k.50Hz.min.max' on page 10 undefined on input line 
-62.
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \begin{figure}[h]
-                      
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `P_Fig/figur2.10k.50Hz.min.max' not found on input line 66.
-
-
-
-! LaTeX Error: Unknown graphics extension: .10k.50Hz.min.max.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...height=5cm]{P_Fig/figur2.10k.50Hz.min.max}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `100k.5Hz.tau' on page 10 undefined on input line 80.
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \begin{figure}[h]
-                      
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `P_Fig/figur6.100k.5Hz.tau' not found on input line 87.
-
-
-! LaTeX Error: Unknown graphics extension: .100k.5Hz.tau.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 ...ics[height=5cm]{P_Fig/figur6.100k.5Hz.tau}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `100k.5Hz.stigetid' on page 10 undefined on input line
- 96.
-
-
-LaTeX Warning: Reference `100k.5Hz.stigetid' on page 10 undefined on input line
- 102.
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 \begin{figure}[h]
-                       
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `P_Fig/figur7.100k.5Hz.stigetid' not found on input line 10
-6.
-
-
-! LaTeX Error: Unknown graphics extension: .100k.5Hz.stigetid.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 ...ight=5cm]{P_Fig/figur7.100k.5Hz.stigetid}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `100k.5Hz.min.max' on page 10 undefined on input line 
-115.
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 \begin{figure}[h]
-                       
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `P_Fig/figur5.100k.5Hz.min.max' not found on input line 119
-.
-
-
-! LaTeX Error: Unknown graphics extension: .100k.5Hz.min.max.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.119 ...eight=5cm]{P_Fig/figur5.100k.5Hz.min.max}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) 
-AED: lastpage setting LastPage
-
-! LaTeX Error: \begin{center} on input line 14 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(hoveddokument.aux)
-
-LaTeX Warning: There were undefined references.
-
-! You can't use `\end' in internal vertical mode.
-\enddocument ... \endgroup \deadcycles \z@ \@@end 
-                                                  
-l.18 \end{document}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-! LaTeX Error: \begin{center} on input line 14 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 )
+
+! LaTeX Error: File `M_Tex/Simulering.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
 ! Emergency stop.
-<*> ./hoveddokument.tex
-                       
-*** (job aborted, no legal \end found)
+<read *> 
+         
+l.16 \input{M_Tex/Simulering}
+                             
+*** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 17310 strings out of 492895
- 339308 string characters out of 3118128
+ 17287 strings out of 492895
+ 338664 string characters out of 3118128
  545260 words of memory out of 3000000
- 21022 multiletter control sequences out of 15000+200000
+ 21015 multiletter control sequences out of 15000+200000
  541474 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,13n,61p,654b,686s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,13n,61p,654b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
