@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  1 DEC 2019 20:16
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  1 DEC 2019 21:10
->>>>>>> 728b9be8078a012803d0a96711e8d7ebf7bbc019
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  2 DEC 2019 22:52
 entering extended mode
 **./hoveddokument.tex
 (hoveddokument.tex
@@ -526,18 +522,18 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 (hoveddokument.aux)
 \openout1 = `hoveddokument.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
 (C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -687,15 +683,15 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 5.
-LaTeX Info: Redefining \celsius on input line 5.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 5.
+(lastpage)             ! on input line 4.
+LaTeX Info: Redefining \celsius on input line 4.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 4.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 5.
-Package gensymb Info: Using \Omega for \ohm on input line 5.
+LaTeX Info: Redefining \ohm on input line 4.
+Package gensymb Info: Using \Omega for \ohm on input line 4.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -733,11 +729,11 @@ Package gensymb Warning: Not defining \micro.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 ("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 ("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -829,131 +825,124 @@ png>] [7]) [8]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 15.
 
-<<<<<<< HEAD
-) [8
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.37   \multicolumn{1}{|c|}{\multirow{2}{*}{10 }}
+                                                     & 1.0    & 2.197   & 5 ...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-] (E_Tex/Realisering.tex
+! Misplaced \noalign.
+\rowcolor ->\noalign 
+                     {\ifnum 0=`}\fi \global \let \CT@do@color \CT@@do@color...
+l.43 \rowcolor
+              [gray]{.8}
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-! LaTeX Error: File `E_Fig/Rea_1_100' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \includegraphics[height=5cm]{E_Fig/Rea_1_100}
-                                                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
-Runaway argument?
-{Lavpasfilter R: 100 k$Omega$, C = 100nF \label {Rea_1_100} \end {cen\ETC.
-! File ended while scanning use of \@xdblarg.
-<inserted text> 
-                \par 
-l.15 \input{E_Tex/Realisering}
-                              
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-=======
-[9
->>>>>>> 728b9be8078a012803d0a96711e8d7ebf7bbc019
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.44 ...2}{|c|}{\textbf{ 2. ordens lavpas filter}}
+                                                   \\ \hline
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 
+Overfull \hbox (290.41151pt too wide) in paragraph at lines 19--51
+[][] 
+ []
+
+) [9
+
+] (P_Tex/Sim.tex
+<P_Fig/figur1.png, id=56, 316.3455pt x 152.0955pt>
+File: P_Fig/figur1.png Graphic file (type png)
+<use P_Fig/figur1.png>
+Package pdftex.def Info: P_Fig/figur1.png  used on input line 13.
+(pdftex.def)             Requested size: 295.89738pt x 142.26378pt.
+<P_Fig/figur3_10k_50Hz_tau.png, id=57, 566.61688pt x 317.68687pt>
+File: P_Fig/figur3_10k_50Hz_tau.png Graphic file (type png)
+<use P_Fig/figur3_10k_50Hz_tau.png>
+Package pdftex.def Info: P_Fig/figur3_10k_50Hz_tau.png  used on input line 32.
+(pdftex.def)             Requested size: 253.74753pt x 142.26378pt.
+<P_Fig/figur4_10k_50Hz_stigetid.png, id=58, 568.62437pt x 313.67188pt>
+File: P_Fig/figur4_10k_50Hz_stigetid.png Graphic file (type png)
+<use P_Fig/figur4_10k_50Hz_stigetid.png>
+Package pdftex.def Info: P_Fig/figur4_10k_50Hz_stigetid.png  used on input line
+ 52.
+(pdftex.def)             Requested size: 257.90022pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<P_Fig/figur2_10k_50Hz_min_max.png, id=59, 563.60562pt x 312.66812pt>
+File: P_Fig/figur2_10k_50Hz_min_max.png Graphic file (type png)
+<use P_Fig/figur2_10k_50Hz_min_max.png>
+Package pdftex.def Info: P_Fig/figur2_10k_50Hz_min_max.png  used on input line 
+65.
+(pdftex.def)             Requested size: 256.44095pt x 142.26378pt.
+[10 <./P_Fig/figur1.png> <./P_Fig/figur3_10k_50Hz_tau.png>]
+<P_Fig/figur6_100k_5Hz_tau.png, id=64, 567.62062pt x 314.67563pt>
+File: P_Fig/figur6_100k_5Hz_tau.png Graphic file (type png)
+<use P_Fig/figur6_100k_5Hz_tau.png>
+Package pdftex.def Info: P_Fig/figur6_100k_5Hz_tau.png  used on input line 86.
+(pdftex.def)             Requested size: 256.6135pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<P_Fig/figur7_100k_5Hz_stigetid.png, id=65, 568.62437pt x 317.68687pt>
+File: P_Fig/figur7_100k_5Hz_stigetid.png Graphic file (type png)
+<use P_Fig/figur7_100k_5Hz_stigetid.png>
+Package pdftex.def Info: P_Fig/figur7_100k_5Hz_stigetid.png  used on input line
+ 105.
+(pdftex.def)             Requested size: 254.64655pt x 142.26378pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<P_Fig/figur5_100k_5Hz_min_max.png, id=66, 564.60938pt x 314.17375pt>
+File: P_Fig/figur5_100k_5Hz_min_max.png Graphic file (type png)
+<use P_Fig/figur5_100k_5Hz_min_max.png>
+Package pdftex.def Info: P_Fig/figur5_100k_5Hz_min_max.png  used on input line 
+118.
+(pdftex.def)             Requested size: 255.66568pt x 142.26378pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) 
 AED: lastpage setting LastPage
-<<<<<<< HEAD
-=======
-[10
->>>>>>> 728b9be8078a012803d0a96711e8d7ebf7bbc019
-
-! LaTeX Error: \begin{center} on input line 5 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(hoveddokument.aux)
-! You can't use `\end' in internal vertical mode.
-\enddocument ... \endgroup \deadcycles \z@ \@@end 
-                                                  
-l.21 \end{document}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-! LaTeX Error: \begin{center} on input line 5 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
-! Emergency stop.
-<*> ./hoveddokument.tex
-                       
-*** (job aborted, no legal \end found)
-
- 
+[11 <./P_Fig/figur4_10k_50Hz_stigetid.png> <./P_Fig/figur2_10k_50Hz_min_max.png
+>] [12 <./P_Fig/figur6_100k_5Hz_tau.png> <./P_Fig/figur7_100k_5Hz_stigetid.png>
+ <./P_Fig/figur5_100k_5Hz_min_max.png>] (hoveddokument.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 17653 strings out of 492452
- 339807 string characters out of 3122847
- 544921 words of memory out of 3000000
- 21804 multiletter control sequences out of 15000+200000
+ 17689 strings out of 492452
+ 341135 string characters out of 3122847
+ 548921 words of memory out of 3000000
+ 21846 multiletter control sequences out of 15000+200000
  541474 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,13n,69p,654b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
-=======
- 17291 strings out of 492895
- 338942 string characters out of 3118128
- 545260 words of memory out of 3000000
- 21015 multiletter control sequences out of 15000+200000
- 541474 words of font info for 58 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 43i,13n,61p,654b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mads Emil Nielsen/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
-ers/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmex10.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Mads Emil Nielsen/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Us
-ers/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Mads Emil Nielsen/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mad
-s Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr6.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mads Emil N
-ielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.p
-fb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on hoveddokument.pdf (11 pages, 223627 bytes).
+<C:/Users/emma1/De
+sktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/e
+mma1/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmex10.p
+fb><C:/Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cmex
+tra/cmex8.pfb><C:/Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb><C:/Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb><C:/Users/emma1/Desktop/Programmer/Ny mappe/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/emma1/Desktop/Programmer/Ny mappe/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/emma1/Desktop/Programmer/Ny ma
+ppe/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/emma1/Desktop/Programmer/
+Ny mappe/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/emma1/Desktop/Progra
+mmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/emma1/Desktop
+/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/emma1/D
+esktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/e
+mma1/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on hoveddokument.pdf (13 pages, 1898621 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
->>>>>>> 728b9be8078a012803d0a96711e8d7ebf7bbc019
