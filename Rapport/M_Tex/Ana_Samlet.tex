@@ -23,24 +23,28 @@ Et eller andet bullshit
  
  \multicolumn{4}{|c|}{\textbf{Analyse}}&\multicolumn{4}{c|}{\textbf{Simulering}}&\multicolumn{4}{c|}{\textbf{Måling}}\\ \hline
  
-      \multicolumn{1}{|c|}{\multirow{1}{*}{R }} & \multicolumn{1}{c|}{\multirow{1}{*}{$\tau$ }}  & \multicolumn{1}{c|}{\multirow{1}{*}{$t_{r}$ }}   & \multicolumn{1}{c|}{\multirow{1}{*}{$V_{Max}$ }}  &  \multicolumn{1}{c|}{\multirow{1}{*}{R }} & \multicolumn{1}{c|}{\multirow{1}{*}{$\tau$ }}  & \multicolumn{1}{c|}{\multirow{1}{*}{$t_{r}$ }}   & \multicolumn{1}{c|}{\multirow{1}{*}{$V_{Max}$ }}  &  \multicolumn{1}{c|}{\multirow{1}{*}{R }} & \multicolumn{1}{c|}{\multirow{1}{*}{$\tau$ }}  & \multicolumn{1}{c|}{\multirow{1}{*}{$t_{r}$ }}   & \multicolumn{1}{c|}{\multirow{1}{*}{$V_{Max}$ }}  \\ 
-      
-k$\Omega$  & [msek]  &  [msek] & [V]  & 0[k$\Omega$]  & [msek]   &  [msek] & [V]  & [k$\Omega$]   &  [msek]  &  [msek]  & [V]\\ \hline
+      \multicolumn{1}{|c|}{\multirow{1}{*}{R }} & \multicolumn{1}{c|}{\multirow{1}{*}{$\tau$ }}  & \multicolumn{1}{c|}{\multirow{1}{*}{$t_{r}$ }}   & \multicolumn{1}{c|}{\multirow{1}{*}{$V_{Max}$ }}  &  \multicolumn{1}{c|}{\multirow{1}{*}{R }} & \multicolumn{1}{c|}{\multirow{1}{*}{$\tau$ }}  & \multicolumn{1}{c|}{\multirow{1}{*}{$t_{r}$ }}   & \multicolumn{1}{c|}{\multirow{1}{*}{$V_{Max}$ }}  &  \multicolumn{1}{c|}{\multirow{1}{*}{R }} & \multicolumn{1}{c|}{\multirow{1}{*}{$\tau$ }}  & \multicolumn{1}{c|}{\multirow{1}{*}{$t_{r}$ }}   & \multicolumn{1}{c|}{\multirow{1}{*}{$V_{Max}$ }}  \\
+k$\Omega$  & [msek]  &  [msek] & [V]  & [k$\Omega$]  & [msek]   &  [msek] & [V]  & [k$\Omega$]   &  [msek]  &  [msek]  & [V]\\ \hline
 \rowcolor[gray]{.8}
     \multicolumn{12}{|c|}{\textbf{ 1. ordens lavpas filter}} \\ \hline 
  
-   10  & 1.0 (\ref{dfLigning})   & 2.197   & 4.966 	  &  10 &  1   & 2.08  & 4.97   &  10  &  1.01   &  2.18   & 5.06 \\ \hline 
+  \multicolumn{1}{|c|}{\multirow{2}{*}{10 }}    & 1.0    & 2.197   & 5 	  &  10 &  1   & 2.08  & 4.97   &  10  &  1.01   &  2.18   & 5.06 \\ 
+   &(\ref{tau_10})& (\ref{tr_10})& (\ref{V_OutMax_10}) &&&&&&&& \\ \hline
 
-   100&  10   & 21.972  & 4.966  &  100 & 10.04  &  19.72   & 4.96  &  100 &  9.87  &  21.053  &  4.65  \\\hline 
+  \multicolumn{1}{|c|}{\multirow{2}{*}{100 }} &  10    & 21.972  & 4.966  &  100 & 10.04  &  19.72   & 4.96  &  100 &  9.87  &  21.053  &  4.65  \\
+      &(\ref{tau_100})&(\ref{tr_100})&(\ref{V_OutMax_100})&&&&&&&& \\ \hline
 \rowcolor[gray]{.8}
     \multicolumn{12}{|c|}{\textbf{ 2. ordens lavpas filter}} \\ \hline 
  
  
    1  & \cellcolor[gray]{.8}   & x1   & x2 	  &  1 &  \cellcolor[gray]{.8}   & x3  & x4   &  1  &  \cellcolor[gray]{.8}   &  x5   & x6 \\ \hline 
+      &&&&&&&&&&& \\ \hline
 
    10&  \cellcolor[gray]{.8}   & x7  & x8  &  10 & \cellcolor[gray]{.8}  &  x9   & x10  &  10 &  \cellcolor[gray]{.8}  &  x11  &  x12  \\ \hline 
+      &&&&&&&&&&& \\ \hline
 \end{tabular}
 \end{table}
 \end{center}
 
+\Std_geo
 

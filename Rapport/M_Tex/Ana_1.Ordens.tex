@@ -28,10 +28,6 @@ Ligning: \ref{V_in(t)} Indgangs spændingen er en funktion af t
 \end{center}
 \end{figure}
 
-
-
-
-
 Strøm-spænding sammenhængen for en modstand og en kondensator er:
 
 
@@ -139,7 +135,7 @@ Ligning \ref{Stamfunktion}: Stamfunktion
 
 \begin{center}
 \begin{equation}
-V_{Out}(t) = \frac{1}{\mu(t)} \cdot (F(t)+k) \xrightarrow[ ]{simplify} V_{0}+k \cdot e^{-\frac{t}{R \cdot C}}
+V_{Out}(t) = \frac{1}{\mu(t)} \cdot (F(t)+k) \xrightarrow[ ]{simplify} V_{Out}(t) = V_{0}+k \cdot e^{-\frac{t}{R \cdot C}}
 \label{Fuldstendig losning}
 \end{equation}
 Ligning \ref{Fuldstendig losning}: Fuldstændig løsning
@@ -163,20 +159,199 @@ Ligning \ref{Specifikke losning}: Specifikke Løsning
 
  
 \subsubsection*{3. Beregn tidskonstanten}
-Beregn tidkonstanten %τ
- for lavpasfilteret med hhv.%R= 10 kΩ og R=100 kΩ.
+Beregn tidkonstanten $\tau$
+ for lavpasfilteret med hhv. $R= 10\ k\Omega$, $R= 100\ k\Omega$ og $C=100nF$. Tidskonstanten er et udtryk for at $V_{Out}$ er opnået 63\% af $V_{in}$.
+\begin{center}
+\begin{equation}
+\tau = R \cdot C
+\label{Tidskonstant}
+\end{equation}
+Ligning \ref{Tidskonstant}: Generel tidskonstant
+\end{center} 
+
  
- Her skal jeg skrive videre i morgen
+\textbf{Tidskonstant $\tau_{10}$:}
+
+Ved brug af Ligning \ref{Tidskonstant} kan $\tau_{10}$ beregnes:
+\begin{center}
+$\tau_{10}=R_{10}\cdot C$
+
+$\tau_{10}= 10 k\Omega \cdot 100nF$
+\begin{equation}
+\tau_{10}= 1ms
+\label{tau_10}
+\end{equation}
+\end{center}
+
+
+\textbf{Tidskonstant $\tau_{100}$:}
+
+
+Ved brug af Ligning \ref{Tidskonstant} kan $\tau_{100}$ beregnes:
+\begin{center}
+$\tau_{100}=R_{100}\cdot C$
+
+$\tau_{100}= 100 k\Omega \cdot 100nF$
+\begin{equation}
+\tau_{100}=10ms
+\label{tau_100}
+\end{equation}
+\end{center}
+
 
 \subsubsection*{4. Beregn kurveform}
-Beregn kurveform for Vout med hhv. $R= 10 k\Omega$ og  $R=100 k\Omega$, 
-og vis disse grafisk for %0 ≤t≤50 ms 
+Beregn kurveform for Vout med hhv.  $R= 10\ k\Omega$ og $R= 100\ k\Omega$, 
+og vis disse grafisk for $0 \leq t \leq 50 ms$ 
+
+Bestemt er:
+$V_{0}=5V$ og $t=0s,0.1ms..50ms$
+
+Kurveformen er givet ved Ligning \ref{Specifikke losning}, da dette er den specifikke løsning.
+
+
+
+Derefer kan man nu indsætte parametrene i ligningen og derved får man 2 nye ligninger der begge afhænger af tiden t:
+
+\textbf{$V_{Out_{10}}(t)$:}
+\begin{center}
+\begin{equation}
+V_{Out_{10}}(t) = 5V-5V \cdot e^{-\frac{t}{10k\Omega \cdot 100nF}} 
+\label{V_Out_10}
+\end{equation}
+\end{center}
+
+
+
+\begin{figure}
+  \begin{minipage}[b]{0.4\textwidth}
+   \includegraphics[height=5cm]{M_Fig/V_out_10_1}
+\caption{10$k\Omega$ - 0-50ms}
+\label{10kOhm50ms}
+  \end{minipage}
+ 
+  \begin{minipage}[c]{0.4\textwidth}
+ \includegraphics[height=5cm]{M_Fig/V_out_10_2}
+\caption{10$k\Omega$ - 0-10ms}
+\label{10kOhm10ms}
+  \end{minipage}
+  
+  
+   \begin{minipage}[]{0.4\textwidth}
+ \includegraphics[height=5cm]{M_Fig/V_out_100_1}
+\caption{10$k\Omega$ - 0-50ms}
+\label{100kOhm50ms}
+  \end{minipage}
+\end{figure}
+
+
+
+
+
+
+
+\textbf{$V_{Out_{100}}(t)$:}
+\begin{center}
+\begin{equation}
+V_{Out_{100}}(t) = 5V-5V \cdot e^{-\frac{t}{100k\Omega \cdot 100nF}} 
+\label{V_Out_100}
+\end{equation}
+\end{center}
+
+
+
 
 \subsubsection*{5. Beregn Vout max}
 Beregn den maksimale værdi af Vout i de to tilfælde.
+Når $V_{Max}$ skal beregnes vil den være højste i det signalet stepper ned. Det vil sige ved t = 50ms
+
+\textbf{$V_{OutMax_10}$:}
+
+\begin{center}
+$V_{OutMax_{10}}(50ms) = 5V-5V \cdot e^{-\frac{50ms}{10k\Omega \cdot 100nF}} $
+\begin{equation}
+V_{OutMax_{10}}(50ms)=5V
+\label{V_OutMax_10}
+\end{equation}
+\end{center}
+
+\textbf{$V_{OutMax_100}$:}
+
+\begin{center}
+$V_{OutMax_{100}}(50ms) = 5V-5V \cdot e^{-\frac{50ms}{100k\Omega \cdot 100nF}} $
+\begin{equation}
+V_{OutMax_{100}}(50ms)=4.996V
+\label{V_OutMax_100}
+\end{equation}
+\end{center}
+
 
 \subsubsection*{6. Bestem stigetiden tr}
-Bestem stigetiden tr %(10-90%).
+Bestem stigetiden tr (10-90\%).
+Stigetiden er den tid det tager $V_{out}$ at komme fra 10\% til 90\% af $V_{in}$.
+
+\textbf{Ved $10k\Omega$:}\\
+\textcolor{green}{!!!!!MANGLER BEGRUNDELSE FOR AT BRUGE LOGEITMEN!!!!}
+\begin{center}
+$t_{10}=-ln(0.9)\cdot \tau_{10}$\\
+$t_{10}=-ln(0.9)\cdot 1.0 ms$
+\begin{equation}
+t_{10}= 0.105 ms
+\label{t_10_10}
+\end{equation}
+\end{center}
+
+
+\begin{center}
+$t_{90}=-ln(0.1)\cdot \tau_{10}$\\
+$t_{90}=-ln(0.1)\cdot 1.0 ms$
+\begin{equation}
+t_{90}= 2.303 ms
+\label{t_10_90}
+\end{equation}
+\end{center}
+
+
+\begin{center}
+$tr_{10}=t_{90} - t_{10}$\\
+$tr_{10}=2.303 ms - 0.105 ms$
+\begin{equation}
+tr_{10}= 2.167 ms
+\label{tr_10}
+\end{equation}
+\end{center}
+
+
+\textbf{Ved $100k\Omega$:}\\
+\textcolor{green}{!!!!!MANGLER BEGRUNDELSE FOR AT BRUGE LOGEITMEN!!!!}
+\begin{center}
+$t_{10}=-ln(0.9)\cdot \tau_{100}$\\
+$t_{10}=-ln(0.9)\cdot 1.0 ms$
+\begin{equation}
+t_{10}= 1.054 ms
+\label{t_100_10}
+\end{equation}
+\end{center}
+
+
+\begin{center}
+$t_{90}=-ln(0.1)\cdot \tau_{100}$\\
+$t_{90}=-ln(0.1)\cdot 1.0 ms$
+\begin{equation}
+t_{90}= 23.026 ms
+\label{t_100_90}
+\end{equation}
+\end{center}
+
+
+\begin{center}
+$tr_{100}=t_{90} - t_{10}$\\
+$tr_{100}=23.026 ms - 1.054 ms$
+\begin{equation}
+tr_{100}= 21.972 ms
+\label{tr_100}
+\end{equation}
+\end{center}
+ 
 
 \subsubsection*{7. Forklar}
 Forklar hvordan tidskonstanten og stigetiden kan findes ud fra grafen for 	Vout, og opstil en ligning til bestemmelse af C, når tidskonstanten %τ
