@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  2 DEC 2019 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  2 DEC 2019 23:15
 entering extended mode
 **./hoveddokument.tex
 (hoveddokument.tex
@@ -832,20 +832,41 @@ e 23.
 <M_Fig/V_out_10_1.png, id=32, 244.66406pt x 234.1247pt>
 File: M_Fig/V_out_10_1.png Graphic file (type png)
 <use M_Fig/V_out_10_1.png>
-Package pdftex.def Info: M_Fig/V_out_10_1.png  used on input line 227.
+Package pdftex.def Info: M_Fig/V_out_10_1.png  used on input line 226.
 (pdftex.def)             Requested size: 148.67366pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <M_Fig/V_out_10_2.png, id=34, 251.43938pt x 231.86626pt>
 File: M_Fig/V_out_10_2.png Graphic file (type png)
 <use M_Fig/V_out_10_2.png>
-Package pdftex.def Info: M_Fig/V_out_10_2.png  used on input line 233.
+Package pdftex.def Info: M_Fig/V_out_10_2.png  used on input line 234.
 (pdftex.def)             Requested size: 154.27556pt x 142.26378pt.
-<M_Fig/V_out_100_1.png, id=35, 247.67531pt x 224.33812pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
+<M_Fig/V_out_100_1.png, id=38, 247.67531pt x 224.33812pt>
 File: M_Fig/V_out_100_1.png Graphic file (type png)
 <use M_Fig/V_out_100_1.png>
-Package pdftex.def Info: M_Fig/V_out_100_1.png  used on input line 240.
+Package pdftex.def Info: M_Fig/V_out_100_1.png  used on input line 251.
 (pdftex.def)             Requested size: 157.068pt x 142.26378pt.
- [5] [6 <./M_Fig/V_out_10_1.png> <./M_Fig/V_out_10_2.png> <./M_Fig/V_out_100_1.
-png>] [7]) [8]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./M_Fig/V_out_10_1.png> <./M_Fig/V_out_10_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+[7 <./M_Fig/V_out_100_1.png>]) [8]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -881,7 +902,7 @@ png>] [7]) [8]
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 15.
+               Default added (so using `tbp') on input line 13.
 
 [9
 
@@ -975,42 +996,42 @@ Package pdftex.def Info: P_Fig/figur5_100k_5Hz_min_max.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) 
+) [11 <./P_Fig/figur4_10k_50Hz_stigetid.png> <./P_Fig/figur2_10k_50Hz_min_max.p
+ng>] (M_Tex/Relisering.tex) 
 AED: lastpage setting LastPage
-[11 <./P_Fig/figur4_10k_50Hz_stigetid.png> <./P_Fig/figur2_10k_50Hz_min_max.png
->] [12 <./P_Fig/figur6_100k_5Hz_tau.png> <./P_Fig/figur7_100k_5Hz_stigetid.png>
- <./P_Fig/figur5_100k_5Hz_min_max.png>] (hoveddokument.aux) ) 
+[12 <./P_Fig/figur6_100k_5Hz_tau.png> <./P_Fig/figur7_100k_5Hz_stigetid.png>]
+[13 <./P_Fig/figur5_100k_5Hz_min_max.png>] (hoveddokument.aux) ) 
 Here is how much of TeX's memory you used:
- 17336 strings out of 492895
- 340303 string characters out of 3118128
+ 17339 strings out of 492895
+ 340461 string characters out of 3118128
  545260 words of memory out of 3000000
  21050 multiletter control sequences out of 15000+200000
  541474 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,13n,61p,654b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Mads Emi
-l Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Mads Emil Ni
-elsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cme
-x8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Mads Emil Nie
-lsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Mads Emil Nielsen/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
-s/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Mads Emil Nielsen/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Mads
- Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmti12.pfb>
-Output written on hoveddokument.pdf (13 pages, 1898032 bytes).
+ 43i,13n,61p,654b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Mads 
+Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Mads Emil
+ Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/
+cmex8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Mads Emil 
+Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Mads Emil Nielsen/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
+sers/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Mads Emil Nielsen/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/M
+ads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on hoveddokument.pdf (14 pages, 1899321 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -221,32 +221,21 @@ V_{Out_{10}}(t) = 5V-5V \cdot e^{-\frac{t}{10k\Omega \cdot 100nF}}
 \end{center}
 
 
-
-\begin{figure}
-  \begin{minipage}[b]{0.4\textwidth}
-   \includegraphics[height=5cm]{M_Fig/V_out_10_1}
+\begin{center}
+\begin{figure}[h]
+  \includegraphics[height=5cm]{M_Fig/V_out_10_1}
 \caption{10$k\Omega$ - 0-50ms}
 \label{10kOhm50ms}
-  \end{minipage}
- 
-  \begin{minipage}[c]{0.4\textwidth}
+\end{figure}
+\end{center}
+  
+\begin{center}
+\begin{figure}[h]
  \includegraphics[height=5cm]{M_Fig/V_out_10_2}
 \caption{10$k\Omega$ - 0-10ms}
 \label{10kOhm10ms}
-  \end{minipage}
-  
-  
-   \begin{minipage}[]{0.4\textwidth}
- \includegraphics[height=5cm]{M_Fig/V_out_100_1}
-\caption{10$k\Omega$ - 0-50ms}
-\label{100kOhm50ms}
-  \end{minipage}
 \end{figure}
-
-
-
-
-
+\end{center}
 
 
 \textbf{$V_{Out_{100}}(t)$:}
@@ -257,13 +246,20 @@ V_{Out_{100}}(t) = 5V-5V \cdot e^{-\frac{t}{100k\Omega \cdot 100nF}}
 \end{equation}
 \end{center}
 
+\begin{center}
+\begin{figure}[h]
+\includegraphics[height=5cm]{M_Fig/V_out_100_1}
+\caption{10$k\Omega$ - 0-50ms}
+\label{100kOhm50ms}
+\end{figure}
+\end{center}
 
 
 
 \subsubsection*{5. Beregn Vout max}
 Beregn den maksimale værdi af Vout i de to tilfælde.
 Når $V_{Max}$ skal beregnes vil den være højste i det signalet stepper ned. Det vil sige ved t = 50ms
-
+\\
 \textbf{$V_{OutMax_10}$:}
 
 \begin{center}
@@ -290,7 +286,6 @@ Bestem stigetiden tr (10-90\%).
 Stigetiden er den tid det tager $V_{out}$ at komme fra 10\% til 90\% af $V_{in}$.
 
 \textbf{Ved $10k\Omega$:}\\
-\textcolor{green}{!!!!!MANGLER BEGRUNDELSE FOR AT BRUGE LOGEITMEN!!!!}
 \begin{center}
 $t_{10}=-ln(0.9)\cdot \tau_{10}$\\
 $t_{10}=-ln(0.9)\cdot 1.0 ms$
@@ -322,7 +317,6 @@ tr_{10}= 2.167 ms
 
 
 \textbf{Ved $100k\Omega$:}\\
-\textcolor{green}{!!!!!MANGLER BEGRUNDELSE FOR AT BRUGE LOGEITMEN!!!!}
 \begin{center}
 $t_{10}=-ln(0.9)\cdot \tau_{100}$\\
 $t_{10}=-ln(0.9)\cdot 1.0 ms$
@@ -354,8 +348,18 @@ tr_{100}= 21.972 ms
  
 
 \subsubsection*{7. Forklar}
-Forklar hvordan tidskonstanten og stigetiden kan findes ud fra grafen for 	Vout, og opstil en ligning til bestemmelse af C, når tidskonstanten %τ
- og modstanden R er kendte.
+Forklar hvordan tidskonstanten og stigetiden kan findes ud fra grafen for 	Vout, og opstil en ligning til bestemmelse af C , når tidskonstanten  $\tau$ og modstanden R er kendte.
+
+$V_{0}=5V$
+$t=0ms,0.1ms..50ms$
+
+
+\textbf{Ved 10kOhm}
+På firgur \ref{10kOhm10ms} kan man se kurven
+
+
+
+
 
 \subsubsection*{8. Indfør resultatur i Tabel 1}
 Resultaterne indføres i Tabel 1.
