@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  3 DEC 2019 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  4 DEC 2019 20:04
 entering extended mode
 **./hoveddokument.tex
 (hoveddokument.tex
@@ -914,114 +914,125 @@ LaTeX Warning: No positions in optional float specifier.
 <P_Fig/figur1.png, id=56, 316.3455pt x 152.0955pt>
 File: P_Fig/figur1.png Graphic file (type png)
 <use P_Fig/figur1.png>
-Package pdftex.def Info: P_Fig/figur1.png  used on input line 13.
+Package pdftex.def Info: P_Fig/figur1.png  used on input line 12.
 (pdftex.def)             Requested size: 295.89738pt x 142.26378pt.
-<P_Fig/figur3_10k_50Hz_tau.png, id=57, 566.61688pt x 317.68687pt>
+<P_Fig/figur12_2orden.png, id=57, 969.6225pt x 562.1pt>
+File: P_Fig/figur12_2orden.png Graphic file (type png)
+<use P_Fig/figur12_2orden.png>
+Package pdftex.def Info: P_Fig/figur12_2orden.png  used on input line 20.
+(pdftex.def)             Requested size: 245.39366pt x 142.26378pt.
+<P_Fig/figur3_10k_50Hz_tau.png, id=58, 566.61688pt x 317.68687pt>
 File: P_Fig/figur3_10k_50Hz_tau.png Graphic file (type png)
 <use P_Fig/figur3_10k_50Hz_tau.png>
-Package pdftex.def Info: P_Fig/figur3_10k_50Hz_tau.png  used on input line 32.
+Package pdftex.def Info: P_Fig/figur3_10k_50Hz_tau.png  used on input line 44.
 (pdftex.def)             Requested size: 253.74753pt x 142.26378pt.
-<P_Fig/figur4_10k_50Hz_stigetid.png, id=58, 568.62437pt x 313.67188pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./P_Fig/figur1.png> <./P_Fig/figur12_2orden.png>]
+<P_Fig/figur4_10k_50Hz_stigetid.png, id=62, 568.62437pt x 313.67188pt>
 File: P_Fig/figur4_10k_50Hz_stigetid.png Graphic file (type png)
 <use P_Fig/figur4_10k_50Hz_stigetid.png>
 Package pdftex.def Info: P_Fig/figur4_10k_50Hz_stigetid.png  used on input line
- 52.
+ 72.
 (pdftex.def)             Requested size: 257.90022pt x 142.26378pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<P_Fig/figur2_10k_50Hz_min_max.png, id=59, 563.60562pt x 312.66812pt>
+<P_Fig/figur2_10k_50Hz_min_max.png, id=63, 563.60562pt x 312.66812pt>
 File: P_Fig/figur2_10k_50Hz_min_max.png Graphic file (type png)
 <use P_Fig/figur2_10k_50Hz_min_max.png>
 Package pdftex.def Info: P_Fig/figur2_10k_50Hz_min_max.png  used on input line 
-65.
+87.
 (pdftex.def)             Requested size: 256.44095pt x 142.26378pt.
-[10 <./P_Fig/figur1.png> <./P_Fig/figur3_10k_50Hz_tau.png>]
-<P_Fig/figur6_100k_5Hz_tau.png, id=64, 567.62062pt x 314.67563pt>
-File: P_Fig/figur6_100k_5Hz_tau.png Graphic file (type png)
-<use P_Fig/figur6_100k_5Hz_tau.png>
-Package pdftex.def Info: P_Fig/figur6_100k_5Hz_tau.png  used on input line 86.
-(pdftex.def)             Requested size: 256.6135pt x 142.26378pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 <./P_Fig/figur4_10k_50Hz_stigetid.png> <./P_Fig/figur2_10k_50Hz_min_max.png
->]
-<P_Fig/figur7_100k_5Hz_stigetid.png, id=70, 568.62437pt x 317.68687pt>
+[11 <./P_Fig/figur3_10k_50Hz_tau.png> <./P_Fig/figur4_10k_50Hz_stigetid.png>]
+
+LaTeX Warning: Reference `100k_5Hz_tau' on page 12 undefined on input line 103.
+
+
+<P_Fig/figur6_100k_5Hz_tau.png, id=69, 567.62062pt x 314.67563pt>
+File: P_Fig/figur6_100k_5Hz_tau.png Graphic file (type png)
+<use P_Fig/figur6_100k_5Hz_tau.png>
+Package pdftex.def Info: P_Fig/figur6_100k_5Hz_tau.png  used on input line 111.
+
+(pdftex.def)             Requested size: 256.6135pt x 142.26378pt.
+[12 <./P_Fig/figur2_10k_50Hz_min_max.png> <./P_Fig/figur6_100k_5Hz_tau.png>]
+<P_Fig/figur7_100k_5Hz_stigetid.png, id=76, 568.62437pt x 317.68687pt>
 File: P_Fig/figur7_100k_5Hz_stigetid.png Graphic file (type png)
 <use P_Fig/figur7_100k_5Hz_stigetid.png>
 Package pdftex.def Info: P_Fig/figur7_100k_5Hz_stigetid.png  used on input line
- 107.
+ 138.
 (pdftex.def)             Requested size: 254.64655pt x 142.26378pt.
-<P_Fig/figur5_100k_5Hz_min_max.png, id=71, 564.60938pt x 314.17375pt>
+<P_Fig/figur5_100k_5Hz_min_max.png, id=77, 564.60938pt x 314.17375pt>
 File: P_Fig/figur5_100k_5Hz_min_max.png Graphic file (type png)
 <use P_Fig/figur5_100k_5Hz_min_max.png>
 Package pdftex.def Info: P_Fig/figur5_100k_5Hz_min_max.png  used on input line 
-120.
+154.
 (pdftex.def)             Requested size: 255.66568pt x 142.26378pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [12 <./P_Fig/figur6_100k_5Hz_tau.png> <./P_Fig/figur7_100k_5Hz_stigetid.png>]
-(P_tex/Sim2.tex
-<P_fig/figur8_1k_stigetid.png, id=78, 578.16pt x 325.215pt>
+)
+[13 <./P_Fig/figur7_100k_5Hz_stigetid.png> <./P_Fig/figur5_100k_5Hz_min_max.png
+>] (P_tex/Sim2.tex
+<P_fig/figur8_1k_stigetid.png, id=83, 578.16pt x 325.215pt>
 File: P_fig/figur8_1k_stigetid.png Graphic file (type png)
 <use P_fig/figur8_1k_stigetid.png>
-Package pdftex.def Info: P_fig/figur8_1k_stigetid.png  used on input line 11.
+Package pdftex.def Info: P_fig/figur8_1k_stigetid.png  used on input line 13.
 (pdftex.def)             Requested size: 252.91791pt x 142.26378pt.
-) [13 <./P_Fig/figur5_100k_5Hz_min_max.png> <./P_fig/figur8_1k_stigetid.png>] (
-E_Tex/Realisering.tex
-<E_Fig/Rea_1_100.png, id=83, 292.09125pt x 191.9672pt>
+) [14 <./P_fig/figur8_1k_stigetid.png>]
+(E_Tex/Realisering.tex
+<E_Fig/Rea_1_100.png, id=87, 292.09125pt x 191.9672pt>
 File: E_Fig/Rea_1_100.png Graphic file (type png)
 <use E_Fig/Rea_1_100.png>
 Package pdftex.def Info: E_Fig/Rea_1_100.png  used on input line 6.
 (pdftex.def)             Requested size: 216.4784pt x 142.26378pt.
-<E_Fig/Rea_2_1.png, id=84, 263.48438pt x 155.07938pt>
+<E_Fig/Rea_2_1.png, id=88, 263.48438pt x 155.07938pt>
 File: E_Fig/Rea_2_1.png Graphic file (type png)
 <use E_Fig/Rea_2_1.png>
 Package pdftex.def Info: E_Fig/Rea_2_1.png  used on input line 14.
 (pdftex.def)             Requested size: 241.709pt x 142.26378pt.
-<E_Fig/Rea_1_100_max.png, id=85, 824.58063pt x 412.54124pt>
+<E_Fig/Rea_1_100_max.png, id=89, 824.58063pt x 412.54124pt>
 File: E_Fig/Rea_1_100_max.png Graphic file (type png)
 <use E_Fig/Rea_1_100_max.png>
 Package pdftex.def Info: E_Fig/Rea_1_100_max.png  used on input line 28.
 (pdftex.def)             Requested size: 284.3548pt x 142.26378pt.
 ) 
 AED: lastpage setting LastPage
-[14 <./E_Fig/Rea_1_100.png> <./E_Fig/Rea_2_1.png>] [15 <./E_Fig/Rea_1_100_max.p
-ng>] (hoveddokument.aux) ) 
+[15 <./E_Fig/Rea_1_100.png> <./E_Fig/Rea_2_1.png>] [16 <./E_Fig/Rea_1_100_max.p
+ng>] (hoveddokument.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17739 strings out of 492452
- 345970 string characters out of 3116327
+ 17749 strings out of 492452
+ 346201 string characters out of 3116327
  547921 words of memory out of 3000000
- 21880 multiletter control sequences out of 15000+200000
+ 21889 multiletter control sequences out of 15000+200000
  541474 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,13n,69p,654b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Administrator/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Administrator/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/A
-dministrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mex10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Administrator/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Administrator
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
-/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Administrator/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Administrator
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
-Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Administrator/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Administrato
-r/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on hoveddokument.pdf (16 pages, 2764268 bytes).
+<C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Administrator/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Admi
+nistrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra
+/cmex8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Administrator/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Administrator/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
+rs/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb><C:/Users/Administrator/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Administrator/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy6.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Administrator/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on hoveddokument.pdf (17 pages, 2986718 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

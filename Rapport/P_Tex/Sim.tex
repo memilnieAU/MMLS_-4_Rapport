@@ -1,12 +1,11 @@
 \section{Simulering}
-Resultaterne fra analysen simuleres med diagrammerne vist i Figur  og Figur . 
 
 \subsection{Simulering af 1. ordens lavpasfilter}
+Resultaterne fra analysen simuleres med diagrammerne vist i Figur \ref{1.orden} og \ref{2orden}
+\\
+I de to tilfælde bestemmes tau($\tau$), stigetiden og den maksimale spænding, disse resultater indføres i tabel 1.
 
-\subsubsection{Simulering af 10 k$\Omega$ }
-Figur \ref{1.orden} viser simuleringen af 1. ordens lavpasfilter. På oscilloskopet vises kurveformen for $V_{out}$ og heraf bestemmes tidskonstan for R = 10 k$\Omega$ og R = 100k$\Omega$.
-I de to tilfælde bestemmes den maksimale værdi af $V_{out}$
-Resultaterne indføres i tabel 1.
+Figur \ref{1.orden} viser simuleringen af 1. ordens lavpasfilter og Figur \ref{2orden} viser simulering af 2. ordens lavpasfilter.
 
 \begin{figure}[h!]
  \begin{center}
@@ -16,16 +15,29 @@ Resultaterne indføres i tabel 1.
  \end{center}
 \end{figure}
 
-tidskonstanten($\tau$) bestemmes ved at først at beregne 
+\begin{figure}[h]
+ \begin{center}
+  \includegraphics[height=5cm]{P_Fig/figur12_2orden}
+  \caption{Simulering af 2.ordens lavpasfilter}
+  \label{2orden}
+ \end{center}
+\end{figure}
 
-$V_max \cdot 0.63 = V_{\tau}$
+\subsubsection{Simulering af 10 k$\Omega$ }
+Tidskonstanten($\tau$) bestemmes ved at beregne:
 
-Herefter måles tidsforskellen fra $t_0 V$ til $V_{\tau}$
+\begin{center}
+$V_{max} \cdot 0.63 = V_{\tau}$
+\end{center}
 
-$V_max$ er ud fra figur \ref{10k.50Hz.tau} målt til 4.97 V
-$4.97 V \cdot 0.63 = 3.131 V$
+Herefter måles tidsforskellen fra $t_0 \  V$ til $V_{\tau}$
 
-tidsforskellen fra $t_0 V$ til $V_{\tau}$ måles til 1.01 ms
+$V_{max}$ er ud fra figur \ref{10k.50Hz.tau} målt til 4.97 V
+\\ 
+$4.97 \ V \cdot 0.63 = 3.131 V$
+
+Tidsforskellen fra $t_0 \ V$ til $V_{\tau}$ måles via figur \ref{10k.50Hz.tau} til 1.01 ms ($\tau$ = 1.01 ms)
+
 
 \begin{figure}[h]
  \begin{center}
@@ -35,17 +47,25 @@ tidsforskellen fra $t_0 V$ til $V_{\tau}$ måles til 1.01 ms
  \end{center}
 \end{figure}
 
+\newpage
 
-stigetiden($\tau$) bestemmes ved formlen:
-$\tau_{90} - \tau_{10} = \delta_{stigetid}$
+Stigetiden bestemmes ved formlen:
+\begin{center}
+$\tau_{90} - \tau_{10} = stigetid$
+\end{center}
 
 Ud fra målinger af figur \ref{10k.50Hz.stigetid}
 er stigetiden blevet beregnet til
 
+\begin{center}
 $\tau_{10} = 4.97 V \cdot 0.1 = 0.497 V$
+\\
 $\tau_{90} = 4.97 V \cdot 0.9 = 4.473 V$
+\\ 
+4.473 \ V - 0.497 \ V = 2.08 ms
+\end{center}
 
-Herefter måles afstanden mellem $\tau_{10}$ til $\tau{90}$ som via figur \ref{10k.50Hz.stigetid} bliver målt til 2.08 ms
+Tidsforskellen mellem $\tau_{90}$ og $\tau_{10}$ måles via figur \ref{10k.50Hz.stigetid} til 2.08 ms
 
 \begin{figure}[h]
  \begin{center}
@@ -55,10 +75,12 @@ Herefter måles afstanden mellem $\tau_{10}$ til $\tau{90}$ som via figur \ref{1
  \end{center}
 \end{figure}
 
-Maksimal spænding bliver målt med formlen
-$V_{max} - V_{min}$
+Maksimal spænding bestemmes ved formlen:
+\begin{center}
+$V_{max} - V_{min}$ = Maksimal spænding
+\end{center}
 
-Afstanden mellem $V_{max}$ og $V_{min}$ som via figur \ref{10k.50Hz.min.max} måles til 4.97 V
+Afstanden mellem $V_{max}$ og $V_{min}$ måles via figur \ref{10k.50Hz.min.max} til 4.97 V
 
 \begin{figure}[h]
  \begin{center}
@@ -68,18 +90,21 @@ Afstanden mellem $V_{max}$ og $V_{min}$ som via figur \ref{10k.50Hz.min.max} må
  \end{center}
 \end{figure}
 
-
+\newpage
 \subsubsection{Simulering af 100 k$\Omega$ }
-tidskonstanten($\tau$) bestemmes ved at først at beregne 
+Tidskonstanten($\tau$) bestemmes ved at beregne:
 
-$V_max \cdot 0.63 = V_{\tau}$
+\begin{center}
+$V_{max} \cdot 0.63 = V_{\tau}$
+\end{center}
 
-Herefter måles tidsforskellen fra $t_0 V$ til $V_{\tau}$
+Herefter måles tidsforskellen fra $t_0 \ V$ til $V_{\tau}$
 
-$V_max$ er ud fra figur \ref{100k.5Hz.tau} målt til 4.96 V
-$4.96 V \cdot 0.63 = 3.125 V$
+$V_{max}$ er ud fra figur \ref{100k_5Hz_tau} målt til 4.96 V
+\\
+$4.96 \ V \cdot 0.63 = 3.125 V$
 
-tidsforskellen fra $t_0 V$ til $V_{\tau}$ måles til 10.04 ms
+Tidsforskellen fra $t_0 \ V$ til $V_{\tau}$ måles via figur \ref{100k.5Hz.tau} til 10.04 ms ($\tau$ = 10.04 ms)
 
 \begin{figure}[h]
  \begin{center}
@@ -91,16 +116,22 @@ tidsforskellen fra $t_0 V$ til $V_{\tau}$ måles til 10.04 ms
 
 \newpage
 
-stigetiden($\tau$) bestemmes ved formlen:
-$\tau_{90} - \tau_{10} = \delta_{stigetid}$
+Stigetiden bestemmes ved formlen:
+\begin{center}
+$\tau_{90} - \tau_{10} = stigetid$
+\end{center}
 
 Ud fra målinger af figur \ref{100k.5Hz.stigetid}
 er stigetiden blevet beregnet til
 
+\begin{center}
 $\tau_{10} = 4.96 V \cdot 0.1 = 0.496 V$
+\\
 $\tau_{90} = 4.96 V \cdot 0.9 = 4.464 V$
+\\ 4.464 \ V - 0.496 \ V = 19.72 ms
+\end{center}
 
-Herefter måles afstanden mellem $\tau_{10} til \tau{90}$ som via figur \ref{100k.5Hz.stigetid} bliver målt til 19.72 ms
+Tidsforskellen mellem $\tau_{90}$ og $\tau_{10}$ måles via figur\ref{100k.5Hz.stigetid} til 19.72 ms
 
 \begin{figure}[h]
  \begin{center}
@@ -110,10 +141,13 @@ Herefter måles afstanden mellem $\tau_{10} til \tau{90}$ som via figur \ref{100
  \end{center}
 \end{figure}
 
-Maksimal spænding bliver målt med formlen
-$V_{max} - V_{min}$
+Maksimal spænding bestemmes ved formlen:
+\begin{center}
+$V_{max} - V_{min}$ = Maksimal spænding
+\end{center}
 
-Afstanden mellem $V_{max}$ og $V_{min}$ som via figur \ref{100k.5Hz.min.max} måles til 4.96 V
+
+Afstanden mellem $V_{max}$ og $V_{min}$ måles via figur \ref{100k.5Hz.min.max} til 4.96 V
 
 \begin{figure}[h]
  \begin{center}
