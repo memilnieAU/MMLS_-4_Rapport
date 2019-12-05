@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  4 DEC 2019 20:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  5 DEC 2019 14:02
 entering extended mode
 **./hoveddokument.tex
 (hoveddokument.tex
@@ -895,41 +895,38 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: P_Fig/figur4_10k_50Hz_stigetid.png Graphic file (type png)
 <use P_Fig/figur4_10k_50Hz_stigetid.png>
 Package pdftex.def Info: P_Fig/figur4_10k_50Hz_stigetid.png  used on input line
- 70.
+ 68.
 (pdftex.def)             Requested size: 257.90022pt x 142.26378pt.
 <P_Fig/figur2_10k_50Hz_min_max.png, id=60, 563.60562pt x 312.66812pt>
 File: P_Fig/figur2_10k_50Hz_min_max.png Graphic file (type png)
 <use P_Fig/figur2_10k_50Hz_min_max.png>
 Package pdftex.def Info: P_Fig/figur2_10k_50Hz_min_max.png  used on input line 
-85.
+83.
 (pdftex.def)             Requested size: 256.44095pt x 142.26378pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10 <./P_Fig/figur3_10k_50Hz_tau.png> <./P_Fig/figur4_10k_50Hz_stigetid.png>]
-
-LaTeX Warning: Reference `100k_5Hz_tau' on page 11 undefined on input line 101.
-
-
 <P_Fig/figur6_100k_5Hz_tau.png, id=66, 567.62062pt x 314.67563pt>
 File: P_Fig/figur6_100k_5Hz_tau.png Graphic file (type png)
 <use P_Fig/figur6_100k_5Hz_tau.png>
-Package pdftex.def Info: P_Fig/figur6_100k_5Hz_tau.png  used on input line 109.
+Package pdftex.def Info: P_Fig/figur6_100k_5Hz_tau.png  used on input line 107.
 
 (pdftex.def)             Requested size: 256.6135pt x 142.26378pt.
+
 [11 <./P_Fig/figur2_10k_50Hz_min_max.png> <./P_Fig/figur6_100k_5Hz_tau.png>]
 <P_Fig/figur7_100k_5Hz_stigetid.png, id=72, 568.62437pt x 317.68687pt>
 File: P_Fig/figur7_100k_5Hz_stigetid.png Graphic file (type png)
 <use P_Fig/figur7_100k_5Hz_stigetid.png>
 Package pdftex.def Info: P_Fig/figur7_100k_5Hz_stigetid.png  used on input line
- 135.
+ 133.
 (pdftex.def)             Requested size: 254.64655pt x 142.26378pt.
 <P_Fig/figur5_100k_5Hz_min_max.png, id=73, 564.60938pt x 314.17375pt>
 File: P_Fig/figur5_100k_5Hz_min_max.png Graphic file (type png)
 <use P_Fig/figur5_100k_5Hz_min_max.png>
 Package pdftex.def Info: P_Fig/figur5_100k_5Hz_min_max.png  used on input line 
-151.
+149.
 (pdftex.def)             Requested size: 255.66568pt x 142.26378pt.
 )
 [12 <./P_Fig/figur7_100k_5Hz_stigetid.png> <./P_Fig/figur5_100k_5Hz_min_max.png
@@ -939,18 +936,44 @@ File: P_Fig/figur8_1k_stigetid.png Graphic file (type png)
 <use P_Fig/figur8_1k_stigetid.png>
 Package pdftex.def Info: P_Fig/figur8_1k_stigetid.png  used on input line 23.
 (pdftex.def)             Requested size: 252.91791pt x 142.26378pt.
+
+
+LaTeX Warning: Command \ae invalid in math mode on input line 31.
+
+
+LaTeX Warning: Command \ae invalid in math mode on input line 31.
+
+
+LaTeX Warning: Command \ae invalid in math mode on input line 34.
+
+
+LaTeX Warning: Command \ae invalid in math mode on input line 34.
+
 <P_Fig/figur9_1k_max.png, id=81, 578.16pt x 325.215pt>
 File: P_Fig/figur9_1k_max.png Graphic file (type png)
 <use P_Fig/figur9_1k_max.png>
 Package pdftex.def Info: P_Fig/figur9_1k_max.png  used on input line 38.
 (pdftex.def)             Requested size: 252.91791pt x 142.26378pt.
- [13 <./P_Fig/figur8_1k_stigetid.png> <./P_Fig/figur9_1k_max.png>]
+[13 <./P_Fig/figur8_1k_stigetid.png> <./P_Fig/figur9_1k_max.png>]
 <P_Fig/figur10_10k_stigetid.png, id=85, 578.16pt x 325.215pt>
 File: P_Fig/figur10_10k_stigetid.png Graphic file (type png)
 <use P_Fig/figur10_10k_stigetid.png>
 Package pdftex.def Info: P_Fig/figur10_10k_stigetid.png  used on input line 64.
 
 (pdftex.def)             Requested size: 252.91791pt x 142.26378pt.
+
+
+LaTeX Warning: Command \ae invalid in math mode on input line 72.
+
+
+LaTeX Warning: Command \ae invalid in math mode on input line 72.
+
+
+LaTeX Warning: Command \ae invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \ae invalid in math mode on input line 75.
+
 File: P_Fig/figur9_1k_max.png Graphic file (type png)
 <use P_Fig/figur9_1k_max.png>
 Package pdftex.def Info: P_Fig/figur9_1k_max.png  used on input line 79.
@@ -1047,38 +1070,34 @@ LaTeX Warning: No positions in optional float specifier.
 
 ) 
 AED: lastpage setting LastPage
-(hoveddokument.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(hoveddokument.aux) ) 
 Here is how much of TeX's memory you used:
- 17771 strings out of 492452
- 346907 string characters out of 3116327
+ 17770 strings out of 492452
+ 346893 string characters out of 3116327
  546921 words of memory out of 3000000
- 21907 multiletter control sequences out of 15000+200000
+ 21906 multiletter control sequences out of 15000+200000
  541474 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,13n,69p,658b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Administrator/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Admi
-nistrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra
-/cmex8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Administrator/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Administrator/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
-rs/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr6.pfb><C:/Users/Administrator/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Administrator/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
-rs/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy6.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Administrator/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on hoveddokument.pdf (18 pages, 4130677 bytes).
+<C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Administrator/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Admini
+strator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
+.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cmextra/cmex8.pfb><C:/Users/Administrator/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Administrator/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/User
+s/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/Users/Administrator/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Administrator/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
+/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Administrator/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Administrator/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on hoveddokument.pdf (18 pages, 4130415 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

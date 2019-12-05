@@ -3,7 +3,7 @@
 \subsection{Simulering af 1. ordens lavpasfilter}
 Resultaterne fra analysen simuleres med diagrammerne vist i Figur \ref{1.orden} og \ref{2orden}
 \\
-I de to tilfælde bestemmes tau($\tau$), stigetiden og den maksimale spænding, disse resultater indføres i tabel 1.
+Ved 1. orden bestemmes tau($\tau$), stigetiden og den maksimale spænding, mens der ved 2. orden bestemmes stigetiden og den maksimale spænding, disse resultater indføres i tabel 1.
 
 Figur \ref{1.orden} viser simuleringen af 1. ordens lavpasfilter og Figur \ref{2orden} viser simulering af 2. ordens lavpasfilter.
 
@@ -30,7 +30,7 @@ Tidskonstanten($\tau$) bestemmes ved at beregne:
 $V_{max} \cdot 0.63 = V_{\tau}$
 \end{center}
 
-Herefter måles tidsforskellen fra $t_0 \  V$ til $V_{\tau}$
+Herefter måles tidsforskellen fra $t_0 $ til $t_{\tau}$
 
 $V_{max}$ er ud fra figur \ref{10k.50Hz.tau} målt til 4.97 V
 \\ 
@@ -46,8 +46,6 @@ Tidsforskellen fra $t_0 \ V$ til $V_{\tau}$ måles via figur \ref{10k.50Hz.tau} 
   \label{10k.50Hz.tau}
  \end{center}
 \end{figure}
-
-\newpage
 
 Stigetiden bestemmes ved formlen:
 \begin{center}
@@ -96,19 +94,19 @@ Tidskonstanten($\tau$) bestemmes ved at beregne:
 $V_{max} \cdot 0.63 = V_{\tau}$
 \end{center}
 
-Herefter måles tidsforskellen fra $t_0 \ V$ til $V_{\tau}$
+Herefter måles tidsforskellen fra $t_0$ til $t_{\tau}$
 
 $V_{max}$ er ud fra figur \ref{100k_5Hz_tau} målt til 4.96 V
 \\
 $4.96 \ V \cdot 0.63 = 3.125 V$
 
-Tidsforskellen fra $t_0 \ V$ til $V_{\tau}$ måles via figur \ref{100k.5Hz.tau} til 10.04 ms ($\tau$ = 10.04 ms)
+Tidsforskellen fra $t_0$ til $t_{\tau}$ måles via figur \ref{100k_5Hz_tau} til 10.04 ms ($\tau$ = 10.04 ms)
 
 \begin{figure}[h]
  \begin{center}
   \includegraphics[height=5cm]{P_Fig/figur6_100k_5Hz_tau.png}
   \caption{måling af $\tau$}
-  \label{100k.5Hz.tau}
+  \label{100k_5Hz_tau}
  \end{center}
 \end{figure}
 
@@ -123,7 +121,7 @@ Ud fra målinger af figur \ref{100k.5Hz.stigetid}
 er stigetiden blevet beregnet til
 
 \begin{center}
-$u_{10} = 4.96 V \cdot 0.1 = 0.496 V$
+$t_{10} = 4.96 V \cdot 0.1 = 0.496 V$
 \\
 $t_{90} = 4.96 V \cdot 0.9 = 4.464 V$
 \end{center}
