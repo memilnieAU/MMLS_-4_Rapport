@@ -10,6 +10,9 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Simulering af 1 k$\Omega $ }{13}% 
 \contentsline {subsubsection}{\numberline {3.2.2}Simulering af 10 k$\Omega $ }{14}% 
 \contentsline {section}{\numberline {4}Realisering}{15}% 
-\contentsline {subsection}{\numberline {4.1}Realisering af 1. ordens lavpasfilter}{15}% 
-\contentsline {subsubsection}{\numberline {4.1.1}1k$\Omega $}{15}% 
-\contentsline {subsubsection}{\numberline {4.1.2}100k$\Omega $}{15}% 
+\contentsline {subsection}{\numberline {4.1}Realisering af 1. ordens lavpasfilter}{16}% 
+\contentsline {subsubsection}{\numberline {4.1.1}10k$\Omega $}{16}% 
+\contentsline {subsubsection}{\numberline {4.1.2}100k$\Omega $}{17}% 
+\contentsline {subsection}{\numberline {4.2}Realisering af 2. ordens lavpasfilter}{19}% 
+\contentsline {subsubsection}{\numberline {4.2.1}10k$\Omega $}{19}% 
+\contentsline {subsubsection}{\numberline {4.2.2}1k$\Omega $}{19}% 

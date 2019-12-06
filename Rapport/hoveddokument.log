@@ -1,15 +1,16 @@
-
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  5 DEC 2019 14:31
-
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.15)  6 DEC 2019 14:25
 entering extended mode
 **./hoveddokument.tex
 (hoveddokument.tex
-LaTeX2e <2019-10-01>
+LaTeX2e <2018-12-01>
 (M_Tex/Preamble.tex
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/base\article.cls"
-Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/base\size12.clo"
-File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\a
+rticle.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\s
+ize12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -23,46 +24,53 @@ File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/base\inputenc.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\i
+nputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsmath\amsmath.sty"
-Package: amsmath 2019/04/01 v2.17c AMS math features
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
+h\amsmath.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsmath\amstext.sty"
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
+h\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsmath\amsgen.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
+h\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen103
 ))
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsmath\amsbsy.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
+h\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsmath\amsopn.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
+h\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count88
-LaTeX Info: Redefining \frac on input line 227.
+LaTeX Info: Redefining \frac on input line 223.
 \uproot@=\count89
 \leftroot@=\count90
-LaTeX Info: Redefining \overline on input line 389.
+LaTeX Info: Redefining \overline on input line 385.
 \classnum@=\count91
 \DOTSCASE@=\count92
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count93
 \c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
@@ -83,81 +91,100 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2855.
-LaTeX Info: Redefining \] on input line 2856.
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsfonts\amsfonts.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsfonts\amssymb.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/babel\babel.sty"
-Package: babel 2019/09/27 3.34 The Babel package
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\babel.sty"
+Package: babel 2019/07/19 3.33 The Babel package
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/babel\switch.def"
-File: switch.def 2019/09/27 3.34 Babel switching mechanism
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\switch.def"
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/arabi\bblopts.cfg
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\
+bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/babel-danish\danish.ldf
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-
+danish\danish.ldf"
 Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/babel\babel.def"
-File: babel.def 2019/09/27 3.34 Babel common definitions
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\babel.def"
+File: babel.def 2019/07/19 3.33 Babel common definitions
 \babel@savecnt=\count100
 \U@D=\dimen112
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/babel\txtbabel.def")
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\txtbabel.def")
 \bbl@dirlevel=\count101
 )
 Package babel Info: Making " an active character on input line 82.
-)) ("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/graphics\graphicx.sty
-"
+))
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/graphics\keyval.sty"
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/graphics\graphics.sty"
-Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/graphics\trig.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/graphics-cfg\graphics.cf
-g"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/graphics-def\pdftex.def"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
-) (C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/natbib\natbib.sty
+)
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib
+\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count102
 )
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/siunitx\siunitx.sty
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3.sty
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunit
+x\siunitx.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kern
+el\expl3.sty"
 Package: expl3 2019-11-07 L3 programming layer (loader) 
 
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3-code.tex
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kern
+el\expl3-code.tex"
 Package: expl3 2019-11-07 L3 programming layer (code)
 \c_max_int=\count103
 \l_tmpa_int=\count104
@@ -310,17 +337,18 @@ Package: expl3 2019-11-07 L3 programming layer (code)
 \l__coffin_display_y_dim=\dimen146
 \g__char_data_ior=\read1
 
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\l3deprecation.def
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kern
+el\l3deprecation.def"
 File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
 ))
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-pdfmod
-e.def
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3back
+end\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count190
 \l__pdf_internal_box=\box47
 ))
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/xparse\xparse.s
-ty
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3pack
+ages/xparse\xparse.sty"
 Package: xparse 2019-10-11 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count191
 \g__xparse_grabber_int=\count192
@@ -328,8 +356,10 @@ Package: xparse 2019-10-11 L3 Experimental document command parser
 \l__xparse_v_nesting_int=\count194
 )
 Package: siunitx 2019/10/10 v2.7t A comprehensive (SI) units package
- ("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/tools\array.sty"
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\
+array.sty"
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen147
 \ar@mcellbox=\box48
 \extrarowheight=\dimen148
@@ -338,8 +368,8 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \backup@length=\skip55
 \ar@cellbox=\box49
 )
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/l3keys2e\l3keys
-2e.sty
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3pack
+ages/l3keys2e\l3keys2e.sty"
 Package: l3keys2e 2019-10-11 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box50
@@ -383,32 +413,41 @@ Package: l3keys2e 2019-10-11 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_number_align_skip=\skip58
 \l__siunitx_table_text_align_skip=\skip59
 
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/translator\translator.sty
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transl
+ator\translator.sty"
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
-)) (C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/lastpage\lastpage.sty
+))
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpa
+ge\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/multirow\multirow.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multir
+ow\multirow.sty"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip60
 \multirow@cntb=\count278
 \multirow@dima=\skip61
 \bigstrutjot=\dimen161
 )
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/was\gensymb.sty
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\ge
+nsymb.sty"
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/geometry\geometry.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geomet
+ry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/oberdiek\ifpdf.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/oberdiek\ifvtex.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/ifxetex\ifxetex.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxe
+tex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count279
@@ -424,15 +463,20 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen169
 \Gm@dimlist=\toks23
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/geometry\geometry.cfg"))
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.sty
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geomet
+ry\geometry.cfg"))
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor
+\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/graphics-cfg\color.cfg"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/colortbl\colortbl.sty
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colort
+bl\colortbl.sty"
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 \everycr=\toks24
 \minrowclearance=\skip62
@@ -448,7 +492,8 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/booktabs\booktabs.sty
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bookta
+bs\booktabs.sty"
 Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \heavyrulewidth=\dimen170
 \lightrulewidth=\dimen171
@@ -468,7 +513,8 @@ Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \@lastruleclass=\count286
 \@thisrulewidth=\dimen182
 )
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/wrapfig\wrapfig.sty
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfi
+g\wrapfig.sty"
 \wrapoverhang=\dimen183
 \WF@size=\dimen184
 \c@WF@wrappedlines=\count287
@@ -476,13 +522,16 @@ Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \WF@everypar=\toks25
 Package: wrapfig 2003/01/31  v 3.6
 )
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/lipsum\lipsum.sty
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum
+\lipsum.sty"
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/lipsum\lipsum.ltd.tex
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum
+\lipsum.ltd.tex"
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/tools\verbatim.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\
+verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks26
 \verbatim@line=\toks27
@@ -520,8 +569,7 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(hoveddokument.aux
+ (hoveddokument.aux
 
 LaTeX Warning: Label `tr1_10k' multiply defined.
 
@@ -541,7 +589,8 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/context/base
+/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
 \scratchdimen=\dimen185
@@ -555,39 +604,45 @@ LaTeX Font Info:    ... okay on input line 3.
 \makeMPintoPDFobject=\count293
 \everyMPtoPDFconversion=\toks29
 )
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/oberdiek\epstopdf-base.s
-ty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdi
+ek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/oberdiek\infwarerr.sty
-"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) ("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/oberdiek\grfext.sty"
+)
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdi
+ek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/oberdiek\kvdefinekeys.
-sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/oberdiek\ltxcmds.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) ("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/oberdiek\kvoptions.s
-ty"
+)))
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdi
+ek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/oberdiek\kvsetkeys.sty
-"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- ("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/oberdiek\etexcmds.sty
-"
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/oberdiek\ifluatex.sty"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/generic/oberdiek\pdftexcmds.st
-y"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\pdftexcmds.sty"
 Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -604,8 +659,10 @@ G,.JBIG2,.JB2,.eps]
 )
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
- ("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/base\ts1enc.dfu"
-File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t
+s1enc.dfu"
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -675,16 +732,14 @@ File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
    defining Unicode char U+25E6 (decimal 9702)
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
-   defining Unicode char U+27E8 (decimal 10216)
-   defining Unicode char U+27E9 (decimal 10217)
    defining Unicode char U+FEFF (decimal 65279)
 )
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/translator\translator-basi
-c-dictionary-English.dict
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transl
+ator\translator-basic-dictionary-English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(C:\Users\emma1\AppData\Roaming\MiKTeX\2.9\tex/latex/siunitx\siunitx-abbreviati
-ons.cfg
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunit
+x\siunitx-abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 Package lastpage Info: Please have a look at the pageslts package at
@@ -735,16 +790,18 @@ Package gensymb Warning: Not defining \micro.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsfonts\umsa.fd"
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/amsfonts\umsb.fd"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(M_Tex/Forside.tex
+) (M_Tex/Forside.tex
 <M_Fig/1_AU-Logo.png, id=1, 631.35875pt x 325.215pt>
 File: M_Fig/1_AU-Logo.png Graphic file (type png)
 <use M_Fig/1_AU-Logo.png>
@@ -753,23 +810,22 @@ Package pdftex.def Info: M_Fig/1_AU-Logo.png  used on input line 7.
  [1
 
 
-{C:/Users/emma1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./M_Fig/1_A
-U-Logo.png>]) (M_Tex/Indholdsfortegnelse.tex
-(hoveddokument.toc)
+{C:/Users/Mads Emil Nielsen/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} 
+<./M_Fig/1_AU-Logo.png>])
+(M_Tex/Indholdsfortegnelse.tex (hoveddokument.toc)
 \tf@toc=\write3
 \openout3 = `hoveddokument.toc'.
 
 ) [1] (M_Tex/Indledning.tex
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 9
-.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
 
-("C:\Users\emma1\Desktop\Programmer\Ny mappe\tex/latex/base\omscmr.fd"
+("C:\Users\Mads Emil Nielsen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\o
+mscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-)
-[2] (M_Tex/Ana_Samlet.tex (M_Tex/Ana_1.Ordens.tex
+) [2] (M_Tex/Ana_Samlet.tex (M_Tex/Ana_1.Ordens.tex
 <M_Fig/Ana_1_Ordens_Lavpasfilter.png, id=17, 150.5625pt x 67.0003pt>
 File: M_Fig/Ana_1_Ordens_Lavpasfilter.png Graphic file (type png)
 <use M_Fig/Ana_1_Ordens_Lavpasfilter.png>
@@ -918,7 +974,7 @@ Package pdftex.def Info: P_Fig/figur5_100k_5Hz_min_max.png  used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [12 <./P_Fig/figur2_10k_50Hz_min_max.png> <./P_Fig/figur6_100k_5Hz_tau.png>]
-(P_tex/Sim2.tex
+(P_Tex/Sim2.tex
 <P_Fig/figur8_1k_stigetid.png, id=82, 578.16pt x 325.215pt>
 File: P_Fig/figur8_1k_stigetid.png Graphic file (type png)
 <use P_Fig/figur8_1k_stigetid.png>
@@ -956,7 +1012,7 @@ Package pdftex.def Info: P_Fig/figur9_1k_max.png  used on input line 79.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [14 <./P_Fig/figur8_1k_stigetid.png> <./P_Fig/figur9_1k_max.png>]
-(E_Tex/Realisering.tex
+(E_Tex/Realisering1.tex
 <E_Fig/Rea_1_100.png, id=93, 292.09125pt x 191.9672pt>
 File: E_Fig/Rea_1_100.png Graphic file (type png)
 <use E_Fig/Rea_1_100.png>
@@ -967,13 +1023,96 @@ File: E_Fig/Rea_2_1.png Graphic file (type png)
 <use E_Fig/Rea_2_1.png>
 Package pdftex.def Info: E_Fig/Rea_2_1.png  used on input line 14.
 (pdftex.def)             Requested size: 241.709pt x 142.26378pt.
-<E_Fig/Rea_1_100_max.png, id=95, 824.58063pt x 412.54124pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./P_Fig/figur10_10k_stigetid.png> <./E_Fig/Rea_1_100.png>]
+<E_Fig/Rea_1_10_max.png, id=99, 826.58812pt x 409.02812pt>
+File: E_Fig/Rea_1_10_max.png Graphic file (type png)
+<use E_Fig/Rea_1_10_max.png>
+Package pdftex.def Info: E_Fig/Rea_1_10_max.png  used on input line 28.
+(pdftex.def)             Requested size: 287.49394pt x 142.26378pt.
+<E_Fig/Rea_1_10_tidskonstant.png, id=100, 825.0825pt x 412.03937pt>
+File: E_Fig/Rea_1_10_tidskonstant.png Graphic file (type png)
+<use E_Fig/Rea_1_10_tidskonstant.png>
+Package pdftex.def Info: E_Fig/Rea_1_10_tidskonstant.png  used on input line 39
+.
+(pdftex.def)             Requested size: 284.8678pt x 142.26378pt.
+<E_Fig/Rea_1_10_stigetid.png, id=101, 825.0825pt x 411.5375pt>
+File: E_Fig/Rea_1_10_stigetid.png Graphic file (type png)
+<use E_Fig/Rea_1_10_stigetid.png>
+Package pdftex.def Info: E_Fig/Rea_1_10_stigetid.png  used on input line 51.
+(pdftex.def)             Requested size: 285.2203pt x 142.26378pt.
+ [16 <./E_Fig/Rea_2_1.png> <./E_Fig/Rea_1_10_max.png> <./E_Fig/Rea_1_10_tidskon
+stant.png>]
+<E_Fig/Rea_1_100_max.png, id=108, 824.58063pt x 412.54124pt>
 File: E_Fig/Rea_1_100_max.png Graphic file (type png)
 <use E_Fig/Rea_1_100_max.png>
-Package pdftex.def Info: E_Fig/Rea_1_100_max.png  used on input line 28.
+Package pdftex.def Info: E_Fig/Rea_1_100_max.png  used on input line 71.
 (pdftex.def)             Requested size: 284.3548pt x 142.26378pt.
-) [15 <./P_Fig/figur10_10k_stigetid.png>] [16 <./E_Fig/Rea_1_100.png> <./E_Fig/
-Rea_2_1.png> <./E_Fig/Rea_1_100_max.png>]
+<E_Fig/Rea_1_100_tidskonstant.png, id=109, 828.09375pt x 412.54124pt>
+File: E_Fig/Rea_1_100_tidskonstant.png Graphic file (type png)
+<use E_Fig/Rea_1_100_tidskonstant.png>
+Package pdftex.def Info: E_Fig/Rea_1_100_tidskonstant.png  used on input line 8
+3.
+(pdftex.def)             Requested size: 285.5663pt x 142.26378pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17 <./E_Fig/Rea_1_10_stigetid.png> <./E_Fig/Rea_1_100_max.png>]
+<E_Fig/Rea_1_100_stigetid.png, id=115, 827.09pt x 410.03188pt>
+File: E_Fig/Rea_1_100_stigetid.png Graphic file (type png)
+<use E_Fig/Rea_1_100_stigetid.png>
+Package pdftex.def Info: E_Fig/Rea_1_100_stigetid.png  used on input line 95.
+(pdftex.def)             Requested size: 286.97438pt x 142.26378pt.
+ [18 <./E_Fig/Rea_1_100_tidskonstant.png> <./E_Fig/Rea_1_100_stigetid.png>]
+<E_Fig/Rea_2_10_max.png, id=122, 1921.1775pt x 855.195pt>
+File: E_Fig/Rea_2_10_max.png Graphic file (type png)
+<use E_Fig/Rea_2_10_max.png>
+Package pdftex.def Info: E_Fig/Rea_2_10_max.png  used on input line 114.
+(pdftex.def)             Requested size: 319.58963pt x 142.26378pt.
+<E_Fig/Rea_2_10_stigetid.png, id=123, 1927.2pt x 856.19875pt>
+File: E_Fig/Rea_2_10_stigetid.png Graphic file (type png)
+<use E_Fig/Rea_2_10_stigetid.png>
+Package pdftex.def Info: E_Fig/Rea_2_10_stigetid.png  used on input line 126.
+(pdftex.def)             Requested size: 320.20918pt x 142.26378pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+<E_Fig/Rea_2_1_max.png, id=124, 1922.18124pt x 853.1875pt>
+File: E_Fig/Rea_2_1_max.png Graphic file (type png)
+<use E_Fig/Rea_2_1_max.png>
+Package pdftex.def Info: E_Fig/Rea_2_1_max.png  used on input line 145.
+(pdftex.def)             Requested size: 320.48985pt x 142.26378pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+[19 <./E_Fig/Rea_2_10_max.png> <./E_Fig/Rea_2_10_stigetid.png>]
+<E_Fig/Rea_2_1_stigetid.png, id=130, 1924.18875pt x 835.12pt>
+File: E_Fig/Rea_2_1_stigetid.png Graphic file (type png)
+<use E_Fig/Rea_2_1_stigetid.png>
+Package pdftex.def Info: E_Fig/Rea_2_1_stigetid.png  used on input line 160.
+(pdftex.def)             Requested size: 327.78305pt x 142.26378pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+) [20 <./E_Fig/Rea_2_1_max.png> <./E_Fig/Rea_2_1_stigetid.png>]
 (M_Tex/Resultat_Tabel.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -1012,7 +1151,7 @@ Rea_2_1.png> <./E_Fig/Rea_1_100_max.png>]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 8.
 
-[17
+[21
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1058,32 +1197,35 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17789 strings out of 492452
- 343742 string characters out of 3122847
- 546921 words of memory out of 3000000
- 21923 multiletter control sequences out of 15000+200000
+ 17458 strings out of 492895
+ 343689 string characters out of 3118128
+ 544260 words of memory out of 3000000
+ 21142 multiletter control sequences out of 15000+200000
  541474 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,13n,69p,658b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cm
-bx10.pfb><C:/Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/public/
-amsfonts/cm/cmex10.pfb><C:/Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/
-public/amsfonts/cmextra/cmex8.pfb><C:/Users/emma1/Desktop/Programmer/Ny mappe/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/emma1/Desktop/Programmer/Ny 
-mappe/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/emma1/Desktop/Programm
-er/Ny mappe/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/emma1/Desktop/Pr
-ogrammer/Ny mappe/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/emma1/Desk
-top/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/emma1
-/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
-emma1/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/cmsy6.p
-fb><C:/Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfonts/cm/c
-msy8.pfb><C:/Users/emma1/Desktop/Programmer/Ny mappe/fonts/type1/public/amsfont
-s/cm/cmti12.pfb>
-Output written on hoveddokument.pdf (18 pages, 4167112 bytes).
+ 43i,13n,61p,658b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Mads Emil Nielsen
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cmextra/cmex8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Mads Emil Nielsen
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
+/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mads Emil Nielsen/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/M
+ads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Mads Emi
+l Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><C:/Users/Mads Emil Nielsen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmti12.pfb>
+Output written on hoveddokument.pdf (22 pages, 4561121 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

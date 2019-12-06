@@ -1,0 +1,175 @@
+\section{Realisering}
+Kredsløbene fra analysen og simuleringen opbygges og måles i laboratoriet med oscilloskop. Figurerne \ref{Rea_1_100} og \ref{Rea_2_1} nedenfor viser de fysiske måleopstillinger. 
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_1_100}
+\caption{Lavpasfilter R: 100 k$\Omega$, C = 100nF}
+\label{Rea_1_100}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_2_1}
+\caption{Lavpasfilter R=1k$\Omega$, =1mH, C=1nF}
+\label{Rea_2_1}
+\end{center}
+\end{figure}
+
+\newpage
+\subsection{Realisering af 1. ordens lavpasfilter}
+
+
+\subsubsection{10k$\Omega$}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_1_10_max}
+\caption{Måling af $V_{max}$ på 10k$\Omega$ 1. ordens lavpasfilter}
+\label{Rea_1_10_max}
+\end{center}
+\end{figure}
+
+Oscilloskopet indstilles til en amplitude på 2.5V, offset på 2.5V og en frekvens på 50 Hz.\\
+$V_{max}$ måles til 5.06V
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_1_10_tidskonstant}
+\caption{Måling af tidskonstant på 10k$\Omega$ 1. ordens lavpasfilter}
+\label{Rea_1_10_tidskonstant}
+\end{center}
+\end{figure}
+
+Tidskonstanten måles til 63$\%$ af den stationære spænding, hvilket udregnes til $5.06V \cdot 0.63=3.188V$. Tidskonstanten $\tau$ måles her til 1.01 ms
+
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_1_10_stigetid}
+\caption{Måling af stigetid på 10k$\Omega$ 1. ordens lavpasfilter}
+\label{Rea_1_10_stigetid}
+\end{center}
+\end{figure}
+
+
+Stigetiden måles ved at måles tiden til 10$\%$ og 90$\%$ af den stationære spænding.
+\begin{center}
+$t_{10}=5.06 V \cdot 0.1 = 0.506 V$
+\\
+$t_{90}=5.05 V \cdot 0.9 = 4.554 V$
+\end{center}
+
+Stigetiden $t_r$ måles til $2.18 ms$
+
+\subsubsection{100k$\Omega$}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_1_100_max}
+\caption{Måling $V_{max}$ på 1. ordens lavpasfilter med 100k$\Omega$}
+\label{Rea_1_100_max}
+\end{center}
+\end{figure}
+
+Oscilloskopet indstilles til en amplitude på 2.5V, et offset på 2.5 V og en frekvens på 5 Hz
+$V_{max}$ måles på lavpasfilteret med en 100k$\Omega$ modstand til 4.65 V. 
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_1_100_tidskonstant}
+\caption{Måling af tidskonstant på 100k$\Omega$ 1. ordens lavpasfilter}
+\label{Rea_1_100_tidskonstant}
+\end{center}
+\end{figure}
+
+\newpage
+
+Tidskonstanten måles til 63$\%$ af den aflæste maximale spænding, som svarer til den stationære spænding, hvilket er $4.65 V \cdot 0.63 = 2.93 V$. Tiden til 2.93 V, stigetiden, aflæses til 9.87 ms
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_1_100_stigetid}
+\caption{Måling at stigetid på 100k$\Omega$ 1. ordens lavpasfilter}
+\label{Rea_1_100_stigetid}
+\end{center}
+\end{figure}
+
+Stigetiden måles ved at måles tiden til 10$\%$ og 90$\%$ af den stationære spænding, som svarer til den aflæste maksimale spænding. 
+
+$t_{10}=4.65 V \cdot 0.1 = 0.465 V$
+$t_{90}=4.65 V \cdot 0.9 = 4.185 V$
+Stigetiden $t_r$ måles til 21.05 ms
+
+\newpage
+\subsection{Realisering af 2. ordens lavpasfilter}
+
+\subsubsection{10k$\Omega$}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_2_10_max}
+\caption{Måling af maksimal spænding på 10k$\Omega$ 2. ordens lavpasfilter}
+\label{Rea_2_10_max}
+\end{center}
+\end{figure}
+
+Oscilloskopet indstilles  på amplitude 2.5V, offset på 2.5 og en frekvens på 10kHz.
+
+Den maksimale spænding på 10k$\Omega$ 2. ordens lavpasfilteret aflæses på grafen til 5.03 V. 
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_2_10_stigetid}
+\caption{Måling af stigetid på 10k$\Omega$ 2. ordens lavpasfilter}
+\label{Rea_2_10_stigetid}
+\end{center}
+\end{figure}
+
+
+Stigetiden måles ved at aflæse tiden til 10$\%$ og 90$\%$ af den stationære spænding, som her måles til 5.05 V.\\
+\begin{center}
+$t_{10}=5.02 V \cdot 0.1 = 0.502 V$
+\\    
+$t_{90}=5.02 V \cdot 0.9 = 4.518 V$
+\end{center}
+Stigetiden $t_r, \Delta t$ aflæses direkte på oscilloskopet til $20.3 \mu s$
+
+\subsubsection{1k$\Omega$}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_2_1_max}
+\caption{Måling af maksimal spænding på 1k$\Omega$ 2. ordens lavpasfilter}
+\label{Rea_2_1_max}
+\end{center}
+\end{figure}
+
+Oscilloskopet indstilles  på amplitude 2.5V, offset på 2.5 og en frekvens på 40kHz.
+
+Den maksimale spænding på 1k$\Omega$ 2. ordens lavpas filter aflæses på grafen til 5.79 V. \\
+
+
+Oversvinget skyldes, rent matematisk, at modstanden R er mindre end den kritiske værdi, og derfor vil stigetiden være lille. Når den stationære spænding er nået vil spolen dog ikke kunne ændre strømmen øjeblikkeligt, og det vil derfor tage lidt tid, før kredsløbet stabiliserer sig, og spændingen bliver stationær. \\
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[height=5cm]{E_Fig/Rea_2_1_stigetid}
+\caption{Måling af stigetid på 1k$\Omega$ 2. ordens lavpasfilter}
+\label{Rea_2_1_stigetid}
+\end{center}
+\end{figure}
+
+
+Stigetiden måles ved at aflæse tiden til 10$\%$ og 90$\%$ af den stationære spænding, som her måles til 5.05 V.\\
+\begin{center}
+$t_{10}=5.05 V \cdot 0.1 = 0.505 V$
+\\
+$t_{90}=5.05 V \cdot 0.9 = 4.553 V$
+\end{center}
+Stigetiden $t_r, \Delta t$ aflæses direkte på oscilloskopet til $1.6118 \mu s$
+
+ 
