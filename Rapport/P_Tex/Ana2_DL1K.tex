@@ -1,0 +1,204 @@
+DL 2. orden for 1k$\Omega$
+
+1. Vores ligning \ref{KVL2_done} står allerede på den rigtige form, så ud fra denne ligning kan vi finde vores konstanter a, b, c og vores funktion f(t)
+
+\begin{center}
+\begin{minipage}{.2\linewidth}
+a = L $\cdot$ C
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+b = R $\cdot$ C
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+c = 1
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+f(t) = $V_{in}(t)$
+\end{minipage}
+\end{center}
+
+2. Find den homogene løsning: 
+\begin{equation}
+	L\cdot C\cdot \dfrac{d^{2}}{dt^{2}}\cdot V_{out}  \left(t\right) +R\cdot C\cdot \dfrac{d}{dt}\ V_{out}  \left(t\right) +V_{out} = 0
+\end{equation}
+
+2.1 opskriv karakterligningen:
+\begin{equation}
+	L\cdot C\cdot k^{2}+R\cdot C\cdot k+c = 0
+\end{equation}
+
+2.2 Løs karakterligningen
+
+\begin{center}
+\begin{minipage}{.2\linewidth}
+R=1k$\Omega$
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+L = 1 mH
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+C = 1 nF
+\end{minipage}
+\end{center}
+
+\begin{equation}
+	k_{1} = \dfrac{ -R\cdot C+ \sqrt{ \left(R\cdot C\right) ^{2}-4\cdot L\cdot C\cdot 1} }{2\cdot L\cdot C}\rightarrow{simplify} 
+	\dfrac{\dfrac{ \sqrt{k^{\Omega}\cdot nF^{2}-4\cdot nF\cdot mH} }{2}-\dfrac{k \Omega\cdot nF}{2}}{nF\cdot mH}
+\end{equation}
+
+\begin{equation}
+	k_{1} =  \left( - \left(5\cdot 10^{5}\right) +8.66\cdot j\right) \ \dfrac{1}{s}
+\end{equation}
+
+\begin{equation}
+	k_{2} = \dfrac{ -R\cdot C- \sqrt{ \left(R\cdot C\right) ^{2}-4\cdot L\cdot C\cdot 1} }{2\cdot L\cdot C} \rightarrow{simplify}
+	 -\dfrac{k\cdot \Omega+ \sqrt{k^{\Omega}\cdot nF^{2}-4\cdot nF\cdot mH} }{2\cdot nF\cdot mH}
+\end{equation}
+
+\begin{equation}
+	k_{2} =  \left( - \left(5\cdot 10^{5}\right) -8.66\cdot j\right) \ \dfrac{1}{s}
+\end{equation} 
+
+2.3 Homogen løsning $V_{out}{10}h(x)$
+
+\begin{equation}
+D = b^2 - 4\cdot a\cdot c = 0
+\end{equation}
+
+\begin{equation}
+	D =  \left(1\ k\cdot 1\ nF\right) ^{2}-4\cdot 1\ mH\cdot 1\ nF\cdot 1 =  -3\cdot 10^{ -12}\ s^{2}
+\end{equation}
+
+\begin{equation}
+	R_{cr} = 2\cdot  \sqrt{\dfrac{L}{C}}  = 2\ k\Omega
+\end{equation}
+
+Da $k_2$ er den kompleks konjugerede af $k_1$, samt den kritiske værdi er større end modstanden R = 1 k$\Omega$. \\
+Skal løsningen stå på følgende form:
+
+\begin{equation}
+y_h(x)=e^{\alpha x} \cdot (A \cdot cos (\beta x) + B\cdot sin(\beta x))
+\end{equation}
+
+\begin{center}
+\begin{minipage}{.2\linewidth}
+$\alpha =  -5\cdot 10^{5}\ \dfrac{1}{s}$
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+$\beta = 8.66\cdot 10^{5}\ \dfrac{1}{s}$
+\end{minipage}
+\end{center}
+
+Herefter indsættes værdierne for $\alpha$ og $\beta$
+
+\begin{equation}
+	V_{out\_1\_h} \left(t\right)  = e^{\alpha\cdot t}\cdot  \left(A\cdot cos  \left(\beta\cdot t\right) +B\cdot \sin  \left(\beta\cdot t\right) \right)  \xrightarrow{}
+	\label{Homegen1K}
+	\end{equation}
+	\begin{center}
+	$ e^{ -\dfrac{500000\cdot t}{s}}\cdot  \left(A\cdot cos  \left(\dfrac{866000\cdot t}{s}\right) +B\cdot \sin  \left(\dfrac{866000\cdot t}{s}\right) \right)$
+	
+	\end{center}
+
+
+
+3. Find partikulær løsning
+\begin{equation}
+	V_{out\_10}  \left(t\right)  = V_{in}  \left(t\right)  = V_{0} = 5\ V
+\end{equation}
+
+3.1 gæt en løsning \\
+
+Kvalificeret bud
+\begin{center}
+\begin{minipage}{.2\linewidth}$V_{out\_1\_p}  \left(t\right)  = \alpha$
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+$V$'$_{out\_1\_p}  \left(t\right) = 0$
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+$V$''$_{out\_1\_p}  \left(t\right)  = 0$
+\end{minipage}
+\end{center}
+
+VS: $L\cdot C\cdot 0 + R\cdot C\cdot 0 + \alpha$ $<=>$ $\alpha$ \\
+
+HS: $V_0$ = 5 V \\
+
+VS=HS $\alpha$=5 V $<=>$ $V_{out\_1\_h}$ = 5 V \\
+
+4. Fuldstændig løsning ($y(x) = y_h(x)+y_p(x)$)
+
+\begin{equation}
+	V_{out\_1\_h}  \left(t\right)  = e^{\dfrac{ -500000\cdot t}{s}}\cdot  \left(A\cdot cos  \left(866000\cdot t\right) +B\cdot \sin  \left(866000\cdot t\right) \right) 
+\end{equation}
+
+\begin{equation}
+	V_{out\_1\_p} \left(t\right)  = 5\ V
+	\label{Partikulær1K}
+\end{equation}
+
+\begin{equation}
+	V_{out\_1} \left(t\right)  = V_{out\_1\_h}  \left(t\right) +V_{out\_1\_p}  \left(t\right)  \xrightarrow{} 5\cdot V+e^{ -\dfrac{500000\cdot t}{s}}\cdot  \left(A\cdot cos  \left(\dfrac{866000\cdot t}{s}\right) +B\cdot \sin  \left(\dfrac{866000\cdot t}{s}\right) \right) 
+\end{equation}
+
+5. Specifik løsning (bestem betingelser)
+
+1. Kondensatoren kan ikke oplades øjeblikkelig, så til tiden 0 er spændingen = 0: \\
+
+\begin{equation}
+	V_{out\_1}  \left(0\right)  = 0 \xrightarrow{} A+5\cdot V = 0
+\end{equation}
+
+\begin{equation}
+	V_{out\_10}  \left(0\right)  = 0 \xrightarrow{} A+B+5\cdot V = 0
+\end{equation}
+
+2. En spole kan ikke acceptere øjeblikkelige strømændringer, derfor vil strømmen være 0 til tiden 0:
+
+i(0) = 0 $<=>$ $dV_{out}{1}(0)=0$
+
+\begin{equation}
+ dV_{out\_1} \left(t\right) = \dfrac{d}{dt}V_{out}{1}(t)
+\end{equation}
+ 
+\begin{equation}
+	dV_{out\_1}  \left(0\right)  = 0 \xrightarrow{} \dfrac{866000\cdot B}{s}-\dfrac{500000\cdot A}{s} = 0
+\end{equation}
+
+\begin{equation}
+	\begin{bmatrix}
+		A &B \\
+	\end{bmatrix}
+	 = 
+	\begin{bmatrix}
+		A+5\cdot V = 0 \\
+		866000\cdot B-500000\cdot A = 0 \\
+	\end{bmatrix}
+	 \xrightarrow{solve, A, B} 
+	\begin{bmatrix}
+		 -5\cdot V & -2.8868360277136\cdot V \\
+	\end{bmatrix}
+\end{equation}
+
+A = -5 V
+B = -2.887 V \\
+
+6. Tjek
+
+\begin{equation}
+	V_{out\_1} \left(t\right)  = 5\cdot V+e^{ -\dfrac{500000\cdot t}{s}}\cdot  \left( -5\ V\cdot cos  \left(\dfrac{866000\cdot t}{s}\right) -2.89\cdot V\cdot \sin  \left(\dfrac{866000\cdot t}{s}\right) \right)
+	\label{specifik1K} 
+\end{equation}
+
+Omskrives ved hjælp af kompleks symbolsk metode: \\
+
+\begin{equation}
+	V_{out\_1}  \left(t\right)  =  -5\ V\cdot cos  \left(\dfrac{866000\cdot t}{s}\right) -2.89\cdot V\cdot \sin  \left(\dfrac{866000\cdot t}{s}\right)  = 
+	\end{equation}
+\begin{center}
+$ -5\ V\cdot cos  \left(\dfrac{866000\cdot t}{s}\right) -2.89\cdot V\cdot \sin  \left(\dfrac{866000\cdot t}{s}-\dfrac{\pi}{2}\right) $
+\end{center}
+
+
+

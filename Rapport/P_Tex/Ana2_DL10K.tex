@@ -1,0 +1,173 @@
+\subsubsection*{2. Løs differentialligningen med hensyn til Vout }
+ Løs differentialligningen med hensyn til $V_{out}$ for $ 0\leq t<\infty$ med hhv. R = 10k$\Omega$ og \\ R = 1k$\Omega$ \\
+
+Vi har brugt brug af løsningsprotokolen for en 2. orden DL.
+
+DL 2. orden for 10k$\omega$
+
+1. Vores ligning \ref{KVL2_done} står allerede på den rigtige form, så ud fra denne ligning kan vi finde vores konstanter a, b, c og vores funktion f(t)
+
+\begin{center}
+\begin{minipage}{.2\linewidth}
+a = L $\cdot$ C
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+b = R $\cdot$ C
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+c = 1
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+f(t) = $V_{in}(t)$
+\end{minipage}
+\end{center}
+
+2. Find den homogene løsning: 
+\begin{equation}
+	L\cdot C\cdot \dfrac{d^{2}}{dt^{2}}\cdot V_{out}  \left(t\right) +R\cdot C\cdot \dfrac{d}{dt}\ V_{out}  \left(t\right) +V_{out} = 0
+\end{equation}
+
+2.1 opskriv karakterligningen:
+\begin{equation}
+	L\cdot C\cdot k^{2}+R\cdot C\cdot k+c = 0
+\end{equation}
+
+2.2 Løs karakterligningen
+
+\begin{center}
+\begin{minipage}{.2\linewidth}
+R=10k$\Omega$
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+L = 1 mH
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+C = 1 nF
+\end{minipage}
+\end{center}
+
+\begin{equation}
+	k_{1} = \dfrac{ -R\cdot C+ \sqrt{ \left(R\cdot C\right) ^{2}-4\cdot L\cdot C\cdot 1} }{2\cdot L\cdot C} \rightarrow 
+	\dfrac{2\cdot  \sqrt{25\cdot k^{\Omega}\cdot nF^{2}-nF\cdot mH} -10\cdot k\cdot nF}{2\cdot nF\cdot mH}
+\end{equation}
+
+$k_1$ = $\left( -1.01\cdot 10^{5}\right) \ \dfrac{1}{s}$
+
+\begin{equation}
+	k_{2} = \dfrac{ -R\cdot C- \sqrt{ \left(R\cdot C\right) ^{2}-4\cdot L\cdot C\cdot 1} }{2\cdot L\cdot C} \rightarrow 
+	 -\dfrac{10\cdot k\cdot nF+2\cdot  \sqrt{25\cdot k^{\Omega}\cdot nF^{2}-nF\cdot mH} }{2\cdot nF\cdot mH}
+\end{equation}
+
+$k_{2} =  \left( -9.899\cdot 10^{6}\right) \ \dfrac{1}{s}$ \\
+
+2.3 Homogen løsning $V_{out}{10}h(x)$
+
+\begin{equation}
+D = b^2 - 4\cdot a\cdot c = 0
+\end{equation}
+
+\begin{equation}
+	D =  \left(R\cdot C\right) ^{2}-4\cdot L\cdot C =  \left(9.6\cdot 10^{ -11}\right) \ s^{2}
+\end{equation}
+
+Diskriminanten er altså større end 0, derfor skal den homogene løsning stå på formen
+
+\begin{equation}
+	y_h  \left(x\right)  = A\cdot e^{k_{1}\cdot t}+B\cdot e^{k_{2}\cdot t}
+	\label{homogen_10k}
+\end{equation}
+
+Herefter indsættes værdierne for $k_1$ og $k_2$
+
+\begin{equation}
+	V_{out\_10\_h} \left(t\right)  = A\cdot e^{k_{1}\cdot t}+B\cdot e^{k_{2}\cdot t} \xrightarrow{} B\cdot e^{ -\dfrac{9.899\cdot 10^{6}\cdot t}{s}}+A\cdot e^{ -\dfrac{101000\cdot t}{s}}
+	\label{homogen10K}
+\end{equation}
+
+3. Find partikulær løsning
+\begin{equation}
+	V_{out\_10}  \left(t\right)  = V_{in}  \left(t\right)  = V_{0} = 5\ V
+\end{equation}
+
+3.1 gæt en løsning \\
+
+Kvalificeret bud
+\begin{center}
+\begin{minipage}{.2\linewidth}$V_{out\_10\_p}  \left(t\right)  = \alpha$
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+$V$'$_{out\_10\_p}  \left(t\right) = 0$
+\end{minipage}
+\begin{minipage}{.2\linewidth}
+$V$''$_{out\_10\_p}  \left(t\right)  = 0$
+\end{minipage}
+\end{center}
+
+VS: $L\cdot C\cdot 0 + R\cdot C\cdot 0 + \alpha$ $<=>$ $\alpha$ \\
+
+HS: $V_0$ = 5 V \\
+
+VS=HS \begin{equation}
+\alpha=5 V <=> V_{out\_10\_p} = 5 V 
+\end{equation} 
+4. Fuldstændig løsning ($y(x) = y_h(x)+y_p(x)$)
+
+\begin{equation}
+	V_{out\_10\_h} \left(t\right)  = B\cdot e^{ -\dfrac{9.899\cdot 10^{6}\cdot t}{s}}+A\cdot e^{ -\dfrac{101000\cdot t}{s}}
+\end{equation}
+
+\begin{equation}
+	V_{out\_10\_p} \left(t\right)  = 5\ V
+	\label{partikulær10K}
+\end{equation}
+
+\begin{equation}
+	V_{out\_10} \left(t\right)  = V_{out\_10\_h}  \left(t\right) +V_{out\_10\_p}  \left(t\right)  \xrightarrow{} 5\cdot V+B\cdot e^{ -\dfrac{9.899\cdot 10^{6}\cdot t}{s}}+A\cdot e^{ -\dfrac{101000\cdot t}{s}}
+\end{equation} 
+
+5. Specifik løsning (bestem betingelser)
+
+Grundet spolen vil spændingen og strømmen ikke stige med det samme, når der er input. Derfor vil strømmen og spændingen være 0 til tiden 0. \\
+
+1. \begin{equation}
+V_{out\_10}  \left(0\right)  = 0
+\end{equation}
+
+\begin{equation}
+	V_{out\_10}  \left(0\right)  = 0 \xrightarrow{} A+B+5\cdot V = 0
+\end{equation}
+
+2. \begin{equation}
+ dV_{out\_10} \left(t\right) = \dfrac{d}{dt}V_{out}{10}(t)
+\end{equation}
+ 
+\begin{equation}
+	dV_{out\_10}  \left(0\right)  = 0 \xrightarrow{}  -\dfrac{9.899\cdot 10^{6}\cdot B}{s}-\dfrac{101000\cdot A}{s} = 0
+\end{equation}
+
+\begin{equation}
+	\begin{bmatrix}
+		A &B \\
+	\end{bmatrix}
+	 = 
+	\begin{bmatrix}
+		A+B+5\cdot V = 0 \\
+		 -\dfrac{9.899\cdot 10^{6}\cdot B}{s}-\dfrac{101000\cdot A}{s} = 0 \\
+	\end{bmatrix}
+	 \xrightarrow{solve, A, B, float, 3} 
+	\begin{bmatrix}
+		 -5.05\cdot V &0.0515\cdot V \\
+	\end{bmatrix}
+\end{equation}
+
+A = -5.05 V
+B = 0.052 V \\
+
+6. Tjek
+
+\begin{equation}
+	V_{out\_10} \left(t\right)  = 5\cdot V+0.052\cdot V\cdot e^{ -\dfrac{9.899\cdot 10^{6}\cdot t}{s}}-5.05\cdot V\cdot e^{ -\dfrac{101000\cdot t}{s}}
+	\label{specifik10k}
+\end{equation}
+
+ 

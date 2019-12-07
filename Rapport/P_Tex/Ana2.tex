@@ -1,0 +1,124 @@
+\subsection{Analyse af 2. orden lavpasfilter}
+
+Figur \ref{2orden_ana} viser et 2. ordens lavpasfilter med en medstand, en spole og en kondensator.
+
+$V_{in}$ er stepinput med spænding 0 - 5 V. Steppet sker til tiden t = 0 sek.
+
+\begin{equation}
+ V_{in}(t) =
+  \begin{cases}
+    0 & \quad \text{if } t <0\\
+    V_{0}&\quad \text{if } t >0\\
+  \end{cases}
+  \label{V_in(t)2}\\
+\end{equation}
+\begin{center}
+
+Ligning: \ref{V_in(t)2} Indgangs spændingen er en funktion af t
+\end{center}
+
+\begin{figure}[h]
+ \begin{center}
+  \includegraphics[height=2.5cm]{P_Fig/figur13_ana2}
+  \caption{Anden ordens lavpasfilter}
+  \label{2orden_ana}
+ \end{center}
+\end{figure}
+
+\newpage
+
+Strøm-spænding sammenhængen for en modstand, en spole og en kondensator er: \\
+
+Modstand:
+\begin{equation}
+ V_{R} =R\cdot i
+\label{Modstand2}\\
+\end{equation}
+\begin{center}
+Ligning \ref{Modstand2}: Spændingen over en modstand
+\end{center}
+
+Spole:
+\begin{equation}
+	V_{L} = L\cdot \dfrac{d \c(i)}{dt}
+\label{Spole2}\\
+\end{equation}
+\begin{center}
+Ligning \ref{Spole2}: Spændingen over en Spole
+\end{center}
+
+
+Kondensator:
+\begin{equation}
+ i =C\cdot \frac{d(V_{C})}{dt}
+\label{Kondensator2}\\
+\end{equation}
+\begin{center}
+Ligning \ref{Kondensator2}: Strømmen gennem en kondensator
+\end{center}
+
+Output spænding:
+\begin{equation}
+V_{Out}(t) = V_{C}(t)
+\label{V_out=V_C2}\\
+\end{equation}
+\begin{center}
+Ligning \ref{V_out=V_C2}: Spændingen over $V_ {C}(t)$ er den samme som i punktet $V_{Out}(t)$
+\end{center}
+
+Følgende 7 delopgaver er givet:
+\subsubsection*{1. Vis ved Kirchhoffs love : KVL}
+Vis ved Kirchhoffs love at følgende differentialligning gælder for kredsløbet i Figur \ref{2orden_ana} : 
+
+\begin{equation}
+	L\cdot C\cdot \dfrac{d^{2}}{dt}\cdot V_{out}  \left(t\right) +R\cdot C\cdot \dfrac{d}{dt}\cdot V_{out}  \left(t\right) +V_{out}  \left(t\right)  = V_{in}  \left(t\right)
+\label{dfLigning2}\\
+\end{equation}
+
+Efter en kredsløbsanalyse ses det at:
+\begin{equation} V_{in}=V_{R}+V_L+V_{C}
+\label{V_in:KVL2}
+\end{equation}
+ 
+ Ved brug af Ligning \ref{V_out=V_C2}  kan ligningen omskrives til 
+\begin{equation}
+V_{in}=V_{R} + V_L + V_{Out}
+\label{V_0:KVL2}
+\end{equation}
+
+Ved at kombinere Ligning \ref{Modstand2} og Ligning \ref{Kondensator2}, samt Ligning \ref{Spole2} og Ligning \ref{Kondensator2} kan der findes et nyt udtryk fra $V_{R}$ og $V_L$ som er afhængig af tiden t
+\begin{equation}
+	V_{R} = R\cdot C\cdot \dfrac{d}{dt}\cdot V_C
+\end{equation}
+
+\begin{equation}
+	V_{L} = L\cdot \dfrac{d}{dt} \cdot C\cdot \dfrac{d}{dt}\cdot V_C   
+\end{equation}
+
+Dernæst kan den indsættes i Ligning \ref{V_0:KVL2} hvilket medføre 
+\begin{equation}
+ V_{in}= R \cdot C \cdot \frac{d(V_{out}(t))}{dt} + L\cdot \dfrac{d}{dt} \cdot C\cdot \dfrac{d(V_{out}(t))}{dt} + V_{out}(t)
+ \label{KVL2_2}
+\end{equation}
+
+Ligning \ref{KVL2_2} kan omskrives til:
+\begin{equation}
+	V_{in} = R\cdot C\cdot \dfrac{d}{dt}\cdot V_{out}+V_{out}+L\cdot C\ \dfrac{d^{2}}{dt^{2}}\ V_{out}
+	\label{KVL2_3}
+\end{equation}
+
+\newpage
+
+Ved at bytte rundt på rækkefølgen af Ligning \ref{KVL2_3}, kan den opstilles så den ligner Ligning \ref{dfLigning2}
+\begin{equation}
+	L\cdot C\cdot \dfrac{d^{2}}{dt^{2}}\cdot V_{out}  \left(t\right) +R\cdot C\cdot \dfrac{d}{dt}\cdot V_{out}  \left(t\right) +V_{out}  \left(t\right)  = V_{in}  \left(t\right)
+	\label{KVL2_done} 
+\end{equation}
+
+\input{P_Tex/Ana2_DL10K}
+\newpage
+\input{P_Tex/Ana2_DL1K}
+\input{P_Tex/Ana2_kurveform10K}
+\input{P_Tex/Ana2_kurveform1K}
+\newpage
+\input{P_tex/Ana2_max10K_max1K}
