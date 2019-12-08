@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  7 DEC 2019 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  8 DEC 2019 14:27
 entering extended mode
 **./hoveddokument.tex
 (hoveddokument.tex
@@ -901,16 +901,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <P_Fig/figur13_ana2.png, id=55, 340.27126pt x 107.65219pt>
 File: P_Fig/figur13_ana2.png Graphic file (type png)
 <use P_Fig/figur13_ana2.png>
-Package pdftex.def Info: P_Fig/figur13_ana2.png  used on input line 22.
+Package pdftex.def Info: P_Fig/figur13_ana2.png  used on input line 24.
 (pdftex.def)             Requested size: 224.83932pt x 71.13188pt.
  [9 <./M_Fig/Ana_1_tau_10ohm.png> <./M_Fig/Ana_1_tau_100ohm.png> <./P_Fig/figur
 13_ana2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 43.
+LaTeX Warning: Command \c invalid in math mode on input line 45.
 
 [10] (P_Tex/Ana2_DL10K.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -947,12 +947,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
-) [13] (P_Tex/Ana2_DL1K.tex
+) (P_Tex/Ana2_DL1K.tex
 Overfull \hbox (4.48853pt too wide) detected at line 47
 \OML/cmm/m/it/12 k[] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ! [][]
  []
 
-[14]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
@@ -984,7 +984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-[15]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 184--186
 
  []
@@ -996,20 +996,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
 ) (P_Tex/Ana2_kurveform10K.tex
 
-LaTeX Warning: Reference `partikulÃ¦r10K' on page 16 undefined on input line 
+LaTeX Warning: Reference `partikulÃ¦r10K' on page 15 undefined on input line 
 5.
 
-<P_Fig/figur14_ana2graf10K.png, id=80, 313.67188pt x 236.885pt>
+<P_Fig/figur14_ana2graf10K.png, id=77, 313.67188pt x 236.885pt>
 File: P_Fig/figur14_ana2graf10K.png Graphic file (type png)
 <use P_Fig/figur14_ana2graf10K.png>
 Package pdftex.def Info: P_Fig/figur14_ana2graf10K.png  used on input line 10.
 (pdftex.def)             Requested size: 188.38165pt x 142.26378pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ) (P_Tex/Ana2_kurveform1K.tex
 
-LaTeX Warning: Reference `PartikulÃ¦r1K' on page 16 undefined on input line 4
+LaTeX Warning: Reference `PartikulÃ¦r1K' on page 15 undefined on input line 4
 .
 
-<P_Fig/figur15_ana2graf1K.png, id=81, 230.8625pt x 233.37187pt>
+<P_Fig/figur15_ana2graf1K.png, id=78, 230.8625pt x 233.37187pt>
 File: P_Fig/figur15_ana2graf1K.png Graphic file (type png)
 <use P_Fig/figur15_ana2graf1K.png>
 Package pdftex.def Info: P_Fig/figur15_ana2graf1K.png  used on input line 10.
@@ -1017,40 +1020,84 @@ Package pdftex.def Info: P_Fig/figur15_ana2graf1K.png  used on input line 10.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [16 <./P_Fig/figur14_ana2graf10K.png>] (P_tex/Ana2_max10K_max1K.tex
-<P_Fig/figur16_ana2graf1Kmax.png, id=86, 319.1925pt x 184.18813pt>
+) (P_tex/Ana2_max10K_max1K.tex
+<P_Fig/figur16_ana2graf1Kmax.png, id=79, 319.1925pt x 184.18813pt>
 File: P_Fig/figur16_ana2graf1Kmax.png Graphic file (type png)
 <use P_Fig/figur16_ana2graf1Kmax.png>
 Package pdftex.def Info: P_Fig/figur16_ana2graf1Kmax.png  used on input line 9.
 
 (pdftex.def)             Requested size: 246.53877pt x 142.26378pt.
-<P_Fig/figur17_ana2graf10Kmax.png, id=87, 224.33812pt x 180.675pt>
+ [15]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<P_Fig/figur17_ana2graf10Kmax.png, id=83, 224.33812pt x 180.675pt>
 File: P_Fig/figur17_ana2graf10Kmax.png Graphic file (type png)
 <use P_Fig/figur17_ana2graf10Kmax.png>
 Package pdftex.def Info: P_Fig/figur17_ana2graf10Kmax.png  used on input line 2
 5.
 (pdftex.def)             Requested size: 176.64665pt x 142.26378pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (P_tex/Ana2_stigetid.tex
+<P_Fig/figur18_anast10K.png, id=84, 336.25626pt x 188.20313pt>
+File: P_Fig/figur18_anast10K.png Graphic file (type png)
+<use P_Fig/figur18_anast10K.png>
+Package pdftex.def Info: P_Fig/figur18_anast10K.png  used on input line 22.
+(pdftex.def)             Requested size: 254.19772pt x 142.26378pt.
+ [16 <./P_Fig/figur14_ana2graf10K.png> <./P_Fig/figur15_ana2graf1K.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [17 <./P_Fig/figur15_ana2graf1K.png> <./P_Fig/figur16_ana2graf1Kmax.png>]
-(P_Tex/Sim.tex
-<P_Fig/figur1.png, id=93, 316.3455pt x 152.0955pt>
+
+Underfull \hbox (badness 2057) in paragraph at lines 31--32
+[]\OT1/cmr/m/n/12 10% af $\OML/cmm/m/it/12 V[]$ \OT1/cmr/m/n/12 er
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 34--35
+[]\OT1/cmr/m/n/12 90% af $\OML/cmm/m/it/12 V[]$ \OT1/cmr/m/n/12 er
+ []
+
+<P_Fig/figur19_ana2st1K.png, id=90, 358.33875pt x 191.71625pt>
+File: P_Fig/figur19_ana2st1K.png Graphic file (type png)
+<use P_Fig/figur19_ana2st1K.png>
+Package pdftex.def Info: P_Fig/figur19_ana2st1K.png  used on input line 50.
+(pdftex.def)             Requested size: 265.92108pt x 142.26378pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 59--60
+[]\OT1/cmr/m/n/12 10% af $\OML/cmm/m/it/12 V[]$ \OT1/cmr/m/n/12 er
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 62--63
+[]\OT1/cmr/m/n/12 90% af $\OML/cmm/m/it/12 V[]$ \OT1/cmr/m/n/12 er
+ []
+
+)) [17 <./P_Fig/figur16_ana2graf1Kmax.png> <./P_Fig/figur17_ana2graf10Kmax.png>
+] (P_Tex/Sim.tex
+<P_Fig/figur1.png, id=96, 316.3455pt x 152.0955pt>
 File: P_Fig/figur1.png Graphic file (type png)
 <use P_Fig/figur1.png>
 Package pdftex.def Info: P_Fig/figur1.png  used on input line 12.
 (pdftex.def)             Requested size: 295.89738pt x 142.26378pt.
-<P_Fig/figur12_2orden.png, id=94, 969.6225pt x 562.1pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<P_Fig/figur12_2orden.png, id=97, 969.6225pt x 562.1pt>
 File: P_Fig/figur12_2orden.png Graphic file (type png)
 <use P_Fig/figur12_2orden.png>
 Package pdftex.def Info: P_Fig/figur12_2orden.png  used on input line 20.
 (pdftex.def)             Requested size: 245.39366pt x 142.26378pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<P_Fig/figur3_10k_50Hz_tau.png, id=95, 566.61688pt x 317.68687pt>
+<P_Fig/figur3_10k_50Hz_tau.png, id=98, 566.61688pt x 317.68687pt>
 File: P_Fig/figur3_10k_50Hz_tau.png Graphic file (type png)
 <use P_Fig/figur3_10k_50Hz_tau.png>
 Package pdftex.def Info: P_Fig/figur3_10k_50Hz_tau.png  used on input line 43.
@@ -1058,8 +1105,8 @@ Package pdftex.def Info: P_Fig/figur3_10k_50Hz_tau.png  used on input line 43.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18 <./P_Fig/figur17_ana2graf10Kmax.png> <./P_Fig/figur1.png>]
-<P_Fig/figur4_10k_50Hz_stigetid.png, id=101, 568.62437pt x 313.67188pt>
+[18 <./P_Fig/figur18_anast10K.png> <./P_Fig/figur19_ana2st1K.png>]
+<P_Fig/figur4_10k_50Hz_stigetid.png, id=105, 568.62437pt x 313.67188pt>
 File: P_Fig/figur4_10k_50Hz_stigetid.png Graphic file (type png)
 <use P_Fig/figur4_10k_50Hz_stigetid.png>
 Package pdftex.def Info: P_Fig/figur4_10k_50Hz_stigetid.png  used on input line
@@ -1069,7 +1116,7 @@ Package pdftex.def Info: P_Fig/figur4_10k_50Hz_stigetid.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<P_Fig/figur2_10k_50Hz_min_max.png, id=102, 563.60562pt x 312.66812pt>
+<P_Fig/figur2_10k_50Hz_min_max.png, id=106, 563.60562pt x 312.66812pt>
 File: P_Fig/figur2_10k_50Hz_min_max.png Graphic file (type png)
 <use P_Fig/figur2_10k_50Hz_min_max.png>
 Package pdftex.def Info: P_Fig/figur2_10k_50Hz_min_max.png  used on input line 
@@ -1078,12 +1125,12 @@ Package pdftex.def Info: P_Fig/figur2_10k_50Hz_min_max.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./P_Fig/figur12_2orden.png> <./P_Fig/figur3_10k_50Hz_tau.png>]
+[19 <./P_Fig/figur1.png> <./P_Fig/figur12_2orden.png>]
 
 LaTeX Warning: Reference `100k_5Hz_tau' on page 20 undefined on input line 100.
 
 
-<P_Fig/figur6_100k_5Hz_tau.png, id=107, 567.62062pt x 314.67563pt>
+<P_Fig/figur6_100k_5Hz_tau.png, id=110, 567.62062pt x 314.67563pt>
 File: P_Fig/figur6_100k_5Hz_tau.png Graphic file (type png)
 <use P_Fig/figur6_100k_5Hz_tau.png>
 Package pdftex.def Info: P_Fig/figur6_100k_5Hz_tau.png  used on input line 108.
@@ -1092,15 +1139,18 @@ Package pdftex.def Info: P_Fig/figur6_100k_5Hz_tau.png  used on input line 108.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20 <./P_Fig/figur4_10k_50Hz_stigetid.png> <./P_Fig/figur2_10k_50Hz_min_max.png
->]
-<P_Fig/figur7_100k_5Hz_stigetid.png, id=113, 568.62437pt x 317.68687pt>
+[20 <./P_Fig/figur3_10k_50Hz_tau.png> <./P_Fig/figur4_10k_50Hz_stigetid.png>]
+<P_Fig/figur7_100k_5Hz_stigetid.png, id=116, 568.62437pt x 317.68687pt>
 File: P_Fig/figur7_100k_5Hz_stigetid.png Graphic file (type png)
 <use P_Fig/figur7_100k_5Hz_stigetid.png>
 Package pdftex.def Info: P_Fig/figur7_100k_5Hz_stigetid.png  used on input line
  132.
 (pdftex.def)             Requested size: 254.64655pt x 142.26378pt.
-<P_Fig/figur5_100k_5Hz_min_max.png, id=114, 564.60938pt x 314.17375pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<P_Fig/figur5_100k_5Hz_min_max.png, id=117, 564.60938pt x 314.17375pt>
 File: P_Fig/figur5_100k_5Hz_min_max.png Graphic file (type png)
 <use P_Fig/figur5_100k_5Hz_min_max.png>
 Package pdftex.def Info: P_Fig/figur5_100k_5Hz_min_max.png  used on input line 
@@ -1110,105 +1160,107 @@ Package pdftex.def Info: P_Fig/figur5_100k_5Hz_min_max.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21 <./P_Fig/figur6_100k_5Hz_tau.png> <./P_Fig/figur7_100k_5Hz_stigetid.png>]
+[21 <./P_Fig/figur2_10k_50Hz_min_max.png> <./P_Fig/figur6_100k_5Hz_tau.png>]
 (P_Tex/Sim2.tex
-<P_Fig/figur8_1k_stigetid.png, id=120, 578.16pt x 325.215pt>
+<P_Fig/figur8_1k_stigetid.png, id=123, 578.16pt x 325.215pt>
 File: P_Fig/figur8_1k_stigetid.png Graphic file (type png)
 <use P_Fig/figur8_1k_stigetid.png>
 Package pdftex.def Info: P_Fig/figur8_1k_stigetid.png  used on input line 22.
 (pdftex.def)             Requested size: 252.91791pt x 142.26378pt.
-<P_Fig/figur9_1k_max.png, id=121, 578.16pt x 325.215pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<P_Fig/figur9_1k_max.png, id=124, 578.16pt x 325.215pt>
 File: P_Fig/figur9_1k_max.png Graphic file (type png)
 <use P_Fig/figur9_1k_max.png>
 Package pdftex.def Info: P_Fig/figur9_1k_max.png  used on input line 36.
 (pdftex.def)             Requested size: 252.91791pt x 142.26378pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22 <./P_Fig/figur5_100k_5Hz_min_max.png> <./P_Fig/figur8_1k_stigetid.png>]
-<P_Fig/figur10_10k_stigetid.png, id=126, 578.16pt x 325.215pt>
+[22 <./P_Fig/figur7_100k_5Hz_stigetid.png> <./P_Fig/figur5_100k_5Hz_min_max.png
+>]
+<P_Fig/figur10_10k_stigetid.png, id=130, 578.16pt x 325.215pt>
 File: P_Fig/figur10_10k_stigetid.png Graphic file (type png)
 <use P_Fig/figur10_10k_stigetid.png>
 Package pdftex.def Info: P_Fig/figur10_10k_stigetid.png  used on input line 61.
 
 (pdftex.def)             Requested size: 252.91791pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: P_Fig/figur9_1k_max.png Graphic file (type png)
 <use P_Fig/figur9_1k_max.png>
 Package pdftex.def Info: P_Fig/figur9_1k_max.png  used on input line 76.
 (pdftex.def)             Requested size: 252.91791pt x 142.26378pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [23 <./P_Fig/figur9_1k_max.png> <./P_Fig/figur10_10k_stigetid.png>]
+) [23 <./P_Fig/figur8_1k_stigetid.png> <./P_Fig/figur9_1k_max.png>]
 (E_Tex/Realisering1.tex
-<E_Fig/Rea_1_100.png, id=130, 292.09125pt x 191.9672pt>
+<E_Fig/Rea_1_100.png, id=134, 292.09125pt x 191.9672pt>
 File: E_Fig/Rea_1_100.png Graphic file (type png)
 <use E_Fig/Rea_1_100.png>
 Package pdftex.def Info: E_Fig/Rea_1_100.png  used on input line 6.
 (pdftex.def)             Requested size: 216.4784pt x 142.26378pt.
-<E_Fig/Rea_2_1.png, id=131, 263.48438pt x 155.07938pt>
+<E_Fig/Rea_2_1.png, id=135, 263.48438pt x 155.07938pt>
 File: E_Fig/Rea_2_1.png Graphic file (type png)
 <use E_Fig/Rea_2_1.png>
 Package pdftex.def Info: E_Fig/Rea_2_1.png  used on input line 14.
 (pdftex.def)             Requested size: 241.709pt x 142.26378pt.
- [24 <./E_Fig/Rea_1_100.png> <./E_Fig/Rea_2_1.png>]
-<E_Fig/Rea_1_10_max.png, id=138, 826.58812pt x 409.02812pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24 <./P_Fig/figur10_10k_stigetid.png> <./E_Fig/Rea_1_100.png>]
+<E_Fig/Rea_1_10_max.png, id=141, 826.58812pt x 409.02812pt>
 File: E_Fig/Rea_1_10_max.png Graphic file (type png)
 <use E_Fig/Rea_1_10_max.png>
 Package pdftex.def Info: E_Fig/Rea_1_10_max.png  used on input line 28.
 (pdftex.def)             Requested size: 287.49394pt x 142.26378pt.
-<E_Fig/Rea_1_10_tidskonstant.png, id=139, 825.0825pt x 412.03937pt>
+<E_Fig/Rea_1_10_tidskonstant.png, id=142, 825.0825pt x 412.03937pt>
 File: E_Fig/Rea_1_10_tidskonstant.png Graphic file (type png)
 <use E_Fig/Rea_1_10_tidskonstant.png>
 Package pdftex.def Info: E_Fig/Rea_1_10_tidskonstant.png  used on input line 39
 .
 (pdftex.def)             Requested size: 284.8678pt x 142.26378pt.
-<E_Fig/Rea_1_10_stigetid.png, id=140, 825.0825pt x 411.5375pt>
+<E_Fig/Rea_1_10_stigetid.png, id=143, 825.0825pt x 411.5375pt>
 File: E_Fig/Rea_1_10_stigetid.png Graphic file (type png)
 <use E_Fig/Rea_1_10_stigetid.png>
 Package pdftex.def Info: E_Fig/Rea_1_10_stigetid.png  used on input line 51.
 (pdftex.def)             Requested size: 285.2203pt x 142.26378pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<E_Fig/Rea_1_100_max.png, id=141, 824.58063pt x 412.54124pt>
+ [25 <./E_Fig/Rea_2_1.png> <./E_Fig/Rea_1_10_max.png> <./E_Fig/Rea_1_10_tidskon
+stant.png>]
+<E_Fig/Rea_1_100_max.png, id=150, 824.58063pt x 412.54124pt>
 File: E_Fig/Rea_1_100_max.png Graphic file (type png)
 <use E_Fig/Rea_1_100_max.png>
 Package pdftex.def Info: E_Fig/Rea_1_100_max.png  used on input line 71.
 (pdftex.def)             Requested size: 284.3548pt x 142.26378pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<E_Fig/Rea_1_100_tidskonstant.png, id=142, 828.09375pt x 412.54124pt>
+<E_Fig/Rea_1_100_tidskonstant.png, id=151, 828.09375pt x 412.54124pt>
 File: E_Fig/Rea_1_100_tidskonstant.png Graphic file (type png)
 <use E_Fig/Rea_1_100_tidskonstant.png>
 Package pdftex.def Info: E_Fig/Rea_1_100_tidskonstant.png  used on input line 8
 3.
 (pdftex.def)             Requested size: 285.5663pt x 142.26378pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25 <./E_Fig/Rea_1_10_max.png> <./E_Fig/Rea_1_10_tidskonstant.png>]
-<E_Fig/Rea_1_100_stigetid.png, id=148, 827.09pt x 410.03188pt>
+[26 <./E_Fig/Rea_1_10_stigetid.png> <./E_Fig/Rea_1_100_max.png>]
+<E_Fig/Rea_1_100_stigetid.png, id=157, 827.09pt x 410.03188pt>
 File: E_Fig/Rea_1_100_stigetid.png Graphic file (type png)
 <use E_Fig/Rea_1_100_stigetid.png>
 Package pdftex.def Info: E_Fig/Rea_1_100_stigetid.png  used on input line 95.
 (pdftex.def)             Requested size: 286.97438pt x 142.26378pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26 <./E_Fig/Rea_1_10_stigetid.png> <./E_Fig/Rea_1_100_max.png> <./E_Fig/Rea_1_
-100_tidskonstant.png>]
-<E_Fig/Rea_2_10_max.png, id=155, 1921.1775pt x 855.195pt>
+ [27 <./E_Fig/Rea_1_100_tidskonstant.png> <./E_Fig/Rea_1_100_stigetid.png>]
+<E_Fig/Rea_2_10_max.png, id=163, 1921.1775pt x 855.195pt>
 File: E_Fig/Rea_2_10_max.png Graphic file (type png)
 <use E_Fig/Rea_2_10_max.png>
 Package pdftex.def Info: E_Fig/Rea_2_10_max.png  used on input line 114.
 (pdftex.def)             Requested size: 319.58963pt x 142.26378pt.
-<E_Fig/Rea_2_10_stigetid.png, id=156, 1927.2pt x 856.19875pt>
+<E_Fig/Rea_2_10_stigetid.png, id=164, 1927.2pt x 856.19875pt>
 File: E_Fig/Rea_2_10_stigetid.png Graphic file (type png)
 <use E_Fig/Rea_2_10_stigetid.png>
 Package pdftex.def Info: E_Fig/Rea_2_10_stigetid.png  used on input line 126.
@@ -1218,13 +1270,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-[27 <./E_Fig/Rea_1_100_stigetid.png> <./E_Fig/Rea_2_10_max.png> <./E_Fig/Rea_2_
-10_stigetid.png>]
-<E_Fig/Rea_2_1_max.png, id=163, 1922.18124pt x 853.1875pt>
+<E_Fig/Rea_2_1_max.png, id=165, 1922.18124pt x 853.1875pt>
 File: E_Fig/Rea_2_1_max.png Graphic file (type png)
 <use E_Fig/Rea_2_1_max.png>
 Package pdftex.def Info: E_Fig/Rea_2_1_max.png  used on input line 145.
 (pdftex.def)             Requested size: 320.48985pt x 142.26378pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
@@ -1235,7 +1288,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-<E_Fig/Rea_2_1_stigetid.png, id=164, 1924.18875pt x 835.12pt>
+[28 <./E_Fig/Rea_2_10_max.png> <./E_Fig/Rea_2_10_stigetid.png>]
+<E_Fig/Rea_2_1_stigetid.png, id=171, 1924.18875pt x 835.12pt>
 File: E_Fig/Rea_2_1_stigetid.png Graphic file (type png)
 <use E_Fig/Rea_2_1_stigetid.png>
 Package pdftex.def Info: E_Fig/Rea_2_1_stigetid.png  used on input line 160.
@@ -1245,7 +1299,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-[28 <./E_Fig/Rea_2_1_max.png> <./E_Fig/Rea_2_1_stigetid.png>]) [29]
+) [29 <./E_Fig/Rea_2_1_max.png> <./E_Fig/Rea_2_1_stigetid.png>]
 (M_Tex/Resultat_Tabel.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -1330,10 +1384,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17966 strings out of 492452
- 352519 string characters out of 3116327
+ 17990 strings out of 492452
+ 353231 string characters out of 3116327
  546921 words of memory out of 3000000
- 22066 multiletter control sequences out of 15000+200000
+ 22085 multiletter control sequences out of 15000+200000
  542095 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,13n,69p,658b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1355,9 +1409,9 @@ rs/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Administrator/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on hoveddokument.pdf (31 pages, 4657677 bytes).
+Output written on hoveddokument.pdf (31 pages, 4690129 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
+ 225 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
